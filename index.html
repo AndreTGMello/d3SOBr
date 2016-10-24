@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <meta charset="UTF-8">
+<html>
+<head>
 <title>d3sparql.js</title>
 <script src="lib/jquery/jquery.min.js"></script>
 <script src="lib/bootstrap/js/bootstrap.min.js"/></script>
@@ -13,7 +15,8 @@ function loadframe(html) {
   $(window).scrollTop(0)
 }
 </script>
-
+</head>
+<body>
 <div class="navbar navbar-fixed-top navbar-inverse">
   <div class="navbar-inner" style="padding-left: 20px">
     <a class="brand" href="javascript:loadframe('d3sparql.html')"><i class="icon-th"></i> D3SPARQL</a>
@@ -71,3 +74,5 @@ function loadframe(html) {
 <div class="container" style="padding: 50px">
 <iframe id="iframe" src="d3sparql.html" width="100%" height="30000" scrolling="auto" frameborder="0" seamless></iframe>
 </div>
+</body>
+</html>
