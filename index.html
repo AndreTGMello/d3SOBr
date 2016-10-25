@@ -5,10 +5,9 @@
     <script src="lib/jquery/jquery-3.1.1.min.js"></script>
     <link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.css"/>
     <link rel="stylesheet" type="text/css" href="lib/google-code-prettify/prettify.css"/>
-    <link rel="stylesheet" type="text/css" href="lib/google-code-prettify/prettify-desert.css"/>
-    <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+    <script src="lib/code-prettify/run_prettify.js"></script>
     <script>
-    $.get("d3sparql.js", function(data) {
+    $.get("lib/d3sparql.js", function(data) {
       $("#code").text(data);
       prettyPrint();
     })
