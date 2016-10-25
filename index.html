@@ -2,69 +2,44 @@
 <meta charset="utf-8">
 <html>
   <head>
+    <script src="lib/jquery/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.css"/>
-    <script src="lib/d3/d3.v3.min.js"></script>
-    <script src="d3sparql.js"></script>
+    <link rel="stylesheet" type="text/css" href="lib/google-code-prettify/prettify.css"/>
+    <link rel="stylesheet" type="text/css" href="lib/google-code-prettify/prettify-desert.css"/>
+    <script src="lib/google-code-prettify/prettify.js"></script>
     <script>
-    function exec() {
-      var endpoint = d3.select("#endpoint").property("value")
-      var sparql = d3.select("#sparql").property("value")
-      d3sparql.query(endpoint, sparql, render)
-    }
-    function render(json) {
-      var config = {
-        "label": "pref",
-        "size": "area",
-        "width":  600,  // canvas width
-        "height": 600,  // canvas height
-        "margin":  10,  // canvas margin
-        "hole":   200,  // doughnut hole: 0 for pie, r > 0 for doughnut
-        "selector": "#result"
-      }
-      d3sparql.piechart(json, config)
-    }
-
-    function exec_offline() {
-      d3.json("cache/dbpedia/area-ja.json", render)
-    }
-    function toggle() {
-      d3sparql.toggle()
-    }
+    $.get("d3sparql.js", function(data) {
+      $("#code").text(data);
+      prettyPrint();
+    })
     </script>
-    <style>
-    .label {
-      font: 10px sans-serif;
-    }
-    </style>
   </head>
   <body>
     <div id="query" style="margin: 10px">
-      <h1>d3piechart</h1>
-      <form class="form-inline">
-        <label>SPARQL endpoint:</label>
-        <div class="input-append">
-          <input id="endpoint" class="span5" value="http://dbpedia.org/sparql" type="text">
-          <button class="btn" type="button" onclick="exec()">Query</button>
-          <button class="btn" type="button" onclick="exec_offline()">Use cache</button>
-          <button class="btn" type="button" onclick="toggle()"><i id="button" class="icon-chevron-up"></i></button>
-        </div>
-      </form>
-      <textarea id="sparql" class="span9" rows=15>
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX yago: <http://dbpedia.org/class/yago/>
-PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
-
-SELECT ?pref ?area
-WHERE {
-  ?s a yago:PrefecturesOfJapan ;
-     rdfs:label ?pref ;
-     dbpedia-owl:areaTotal ?area_total .
-  FILTER (lang(?pref) = 'en')
-  BIND ((?area_total / 1000 / 1000) AS ?area)
-}
-ORDER BY DESC(?area)
-      </textarea>
+      <h1>d3sparql.js</h1>
+      <p>
+        <span class="label label-info">Info</span><br>
+        JavaScript natually fits for querying a <a href="http://sparqles.okfn.org/">SPARQL endpoint</a> which provides a REST service returning the result in the JSON format. The <a href="d3sparql.js">d3sparql.js</a> library provides functions executing a SPARQL query by <a href="http://en.wikipedia.org/wiki/Ajax_(programming)">Ajax</a> call (XMLHttpRequest) and visulaizing results by the <a href="http://d3js.org/">D3 library</a>. Basically, this library transforms the <a href="http://www.w3.org/TR/sparql11-results-json/">SPARQL Query Results JSON Format</a> (aka. application/sparql-results+json) into several JSON formats which major D3 layouts can accept. Many of the examples are borrowed from <a href="http://bl.ocks.org/">bl.ocks.org</a> and <a href="http://bost.ocks.org/mike/">bost.ocks.org</a>. The d3sparql.js library is distributed under the same license as D3.js's (<a href="http://opensource.org/licenses/BSD-3-Clause">BSD license</a>).
+      </p>
+      <p>
+        <span class="label label-success">Demo</span><br>
+        You can try out some examples from the menu on the top of this page.
+      </p>
+      <p>
+        <span class="label label-warning">Note</a></span>
+        <ul>
+          <li> This library is still under development.</li>
+          <li> The <a href="https://code.google.com/p/sgvizler/">sgvizler</a> project provides similar functionality based on the <a href="https://developers.google.com/chart/">Google Chart Tools</a>.</li>
+        </ul>
+      </p>
+      <p>
+        <span class="label label-important">Todos</span>
+        <ul>
+          <li>Rewrite option handling based on the <a href="http://bost.ocks.org/mike/chart/">D3 convention</a>.</li>
+          <li>Add more exciting examples.</li>
+        </ul>
+      </p>
+      <pre class="prettyprint"><code class="language-js" id="code"></code></pre>
     </div>
-    <div id="result"></div>
   </body>
 </html>
