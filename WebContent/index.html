@@ -1,44 +1,73 @@
 <!DOCTYPE html>
-<meta charset="utf-8">
-<html>
-  <head>
-    <script src="lib/jquery/jquery-3.1.1.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.css"/>
-    <link rel="stylesheet" type="text/css" href="lib/google-code-prettify/prettify.css"/>
-    <script src="lib/code-prettify/run_prettify.js"></script>
-    <script>
-    $.get("lib/d3sparql.js", function(data) {
-      $("#code").text(data);
-      prettyPrint();
-    })
-    </script>
-  </head>
-  <body>
-    <div id="query" style="margin: 10px">
-      <h1>d3sparql.js</h1>
-      <p>
-        <span class="label label-info">Info</span><br>
-        JavaScript natually fits for querying a <a href="http://sparqles.okfn.org/">SPARQL endpoint</a> which provides a REST service returning the result in the JSON format. The <a href="d3sparql.js">d3sparql.js</a> library provides functions executing a SPARQL query by <a href="http://en.wikipedia.org/wiki/Ajax_(programming)">Ajax</a> call (XMLHttpRequest) and visulaizing results by the <a href="http://d3js.org/">D3 library</a>. Basically, this library transforms the <a href="http://www.w3.org/TR/sparql11-results-json/">SPARQL Query Results JSON Format</a> (aka. application/sparql-results+json) into several JSON formats which major D3 layouts can accept. Many of the examples are borrowed from <a href="http://bl.ocks.org/">bl.ocks.org</a> and <a href="http://bost.ocks.org/mike/">bost.ocks.org</a>. The d3sparql.js library is distributed under the same license as D3.js's (<a href="http://opensource.org/licenses/BSD-3-Clause">BSD license</a>).
-      </p>
-      <p>
-        <span class="label label-success">Demo</span><br>
-        You can try out some examples from the menu on the top of this page.
-      </p>
-      <p>
-        <span class="label label-warning">Note</a></span>
-        <ul>
-          <li> This library is still under development.</li>
-          <li> The <a href="https://code.google.com/p/sgvizler/">sgvizler</a> project provides similar functionality based on the <a href="https://developers.google.com/chart/">Google Chart Tools</a>.</li>
+<meta charset="UTF-8">
+<title>d3sparql.js</title>
+<script src="lib/jquery/jquery.min.js"></script>
+<script src="lib/bootstrap/js/bootstrap.min.js"/></script>
+<link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+<script>
+function loadframe(html) {
+  $("#iframe").attr("src", html)
+    //.load(function() {
+    //  $(this).css("height", $(this).contents().height() + 100 + "px")
+    //})
+  $(window).scrollTop(0)
+}
+</script>
+
+<div class="navbar navbar-fixed-top navbar-inverse">
+  <div class="navbar-inner" style="padding-left: 20px">
+    <a class="brand" href="javascript:loadframe('d3sparql.html')"><i class="icon-th"></i> D3SPARQL</a>
+    <ul class="nav">
+      <li class="divider-vertical"></li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Chart<b class="caret"></b></a>
+        <ul class="dropdown-menu">
+          <li><a href="javascript:loadframe('d3sparql-barchart.html')"><i class="icon-th-large"></i> d3barchart</a></li>
+          <li><a href="javascript:loadframe('d3sparql-piechart.html')"><i class="icon-th-large"></i> d3piechart</a></li>
+          <li><a href="javascript:loadframe('d3sparql-scatterplot.html')"><i class="icon-th-large"></i> d3scatterplot</a></li>
         </ul>
-      </p>
-      <p>
-        <span class="label label-important">Todos</span>
-        <ul>
-          <li>Rewrite option handling based on the <a href="http://bost.ocks.org/mike/chart/">D3 convention</a>.</li>
-          <li>Add more exciting examples.</li>
+      </li>
+      <li class="divider-vertical"></li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Graph<b class="caret"></b></a>
+        <ul class="dropdown-menu">
+          <li><a href="javascript:loadframe('d3sparql-forcegraph.html')"><i class="icon-th-large"></i> d3forcegraph</a></li>
+          <li><a href="javascript:loadframe('d3sparql-sankey.html')"><i class="icon-th-large"></i> d3sankey</a></li>
         </ul>
-      </p>
-      <pre class="prettyprint"><code class="language-js" id="code"></code></pre>
-    </div>
-  </body>
-</html>
+      </li>
+      <li class="divider-vertical"></li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tree<b class="caret"></b></a>
+        <ul class="dropdown-menu">
+          <li><a href="javascript:loadframe('d3sparql-roundtree.html')"><i class="icon-th-large"></i> d3roundtree</a></li>
+          <li><a href="javascript:loadframe('d3sparql-dendrogram.html')"><i class="icon-th-large"></i> d3dendrogram</a></li>
+          <li><a href="javascript:loadframe('d3sparql-treemap.html')"><i class="icon-th-large"></i> d3treemap</a></li>
+          <li><a href="javascript:loadframe('d3sparql-treemapzoom.html')"><i class="icon-th-large"></i> d3treemapzoom</a></li>
+          <li><a href="javascript:loadframe('d3sparql-sunburst.html')"><i class="icon-th-large"></i> d3sunburst</a></li>
+          <li><a href="javascript:loadframe('d3sparql-circlepack.html')"><i class="icon-th-large"></i> d3circlepack</a></li>
+        </ul>
+      </li>
+      <li class="divider-vertical"></li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Map<b class="caret"></b></a>
+        <ul class="dropdown-menu">
+          <li><a href="javascript:loadframe('d3sparql-coordmap.html')"><i class="icon-th-large"></i> d3coordmap</a></li>
+          <li><a href="javascript:loadframe('d3sparql-namedmap.html')"><i class="icon-th-large"></i> d3namedmap</a></li>
+        </ul>
+      </li>
+      <li class="divider-vertical"></li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Table<b class="caret"></b></a>
+        <ul class="dropdown-menu">
+          <li><a href="javascript:loadframe('d3sparql-htmltable.html')"><i class="icon-th-large"></i> d3htmltable</a></li>
+          <li><a href="javascript:loadframe('d3sparql-htmlhash.html')"><i class="icon-th-large"></i> d3htmlhash</a></li>
+        </ul>
+      </li>
+    </ul>
+    <a class="navbar-text pull-right" style="padding-right: 20px" href="http://github.com/ktym/d3sparql"><i class="icon-wrench"></i> GitHub</a>
+  </div>
+</div>
+
+<div class="container" style="padding: 50px">
+<iframe id="iframe" src="d3sparql.html" width="100%" height="30000" scrolling="auto" frameborder="0" seamless></iframe>
+</div>
