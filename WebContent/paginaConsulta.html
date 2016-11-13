@@ -2,39 +2,76 @@
 <meta charset="utf-8">
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.css"/>
+	<script src="lib/jquery/jquery.min.js"></script>
     <script src="lib/d3/d3.v3.min.js"></script>
     <script src="d3sparql.js"></script>
+	<link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.css"/>
     <style>
-    .bar:hover {
-      fill: brown;
-    }
+		.bar:hover {
+		fill: brown;
+		}
     </style>
+	<script>
+		function loadframe(html) {
+			$("#iframedois").attr("src", html)
+			//.load(function() {
+			//  $(this).css("height", $(this).contents().height() + 100 + "px")
+			//})
+		$(window).scrollTop(0)
+		}
+	</script>
   </head>
   <body>
     <div id="query" style="margin: 10px">
-      <h1>Escolha alguma coisa</h1>
-	  Escolha uma forma de visualizacao dos dados
+      <h1>Visualização de Orçamentos de São Paulo</h1>
+	  <p>Escolha uma forma de visualização dos dados
 	  <select id="mySelect">
-		<option>Bar Chart</option>
-		<option>Circle Pack</option>
-		<option>Coord Map</option>
-		<option>Dendogram</option>
-		<option>Force Graph</option>
-		<option>HTML Hash</option>
-		<option>HTML Table</option>
-		<option>Named Map</option>
-		<option>Pie Chart</option>
-		<option>Round Tree</option>
-		<option>Sankey</option>
-		<option>Scatter Plot</option>
-		<option>Sun Burst</option>
-		<option>Tree Map</option>
-		<option>Tree Map Zoom</option>
-	  </select>
+		<option>barchart</option>
+		<option>circlepack</option>
+		<option>coordmap</option>
+		<option>dendrogram</option>
+		<option>forcegraph</option>
+		<option>htmlhash</option>
+		<option>htmltable</option>
+		<option>namedmap</option>
+		<option>piechart</option>
+		<option>roundtree</option>
+		<option>sankey</option>
+		<option>scatterplot</option>
+		<option>sunburst</option>
+		<option>treemap</option>
+		<option>treemapzoom</option>
+	  </select></p>
 	  
-	  
-      <form class="form-inline">
+	<p>Escolha um município:
+	<select id="mySelectDois"></select></p>
+	
+	<p>Escolha um tipo de investimento:
+	<select id="mySelectTres"></select></p>
+	
+	<p>Escolha o órgão desejado:
+	<select id="mySelectQuatro"></select></p>
+	
+	<script>
+		function opcaoEscolhida(){
+			var posicao = document.getElementById("mySelect").selectedIndex;
+			var opcao = document.getElementById("mySelect").options;
+			return opcao[posicao].text
+		}
+		
+		function abrePagina(){
+			nomePagina = opcaoEscolhida();
+			nomePagina = "d3sparql-" + nomePagina + ".html";
+			//alert(nomePagina)
+			return nomePagina;
+		}
+	</script>
+	
+	<button><a class="brand" href="javascript:loadframe(abrePagina())"><i class="icon-th"></i>ENVIAR DADOS</a></button>
+	 
+	<iframe id="iframedois" width="100%" height="1000" frameborder="0" seamless></iframe>
+	
+	<form class="form-inline">
         <label>SPARQL endpoint:</label>
         <div class="input-append">
           <input id="endpoint" class="span5" type="text">
@@ -48,27 +85,5 @@
       </textarea>
     </div>
     <div id="result"></div>
-	
-	<script>
-	function exec() {
-	  opcaoEscolhida();	
-      var endpoint = d3.select("#endpoint").property("value")
-      var sparql = d3.select("#sparql").property("value")
-      d3sparql.query(endpoint, sparql, render)
-    }
-	
-    function render(json) {
-      
-    }
-
-    function exec_offline() {
-     
-    }
-	function opcaoEscolhida(){
-		var posicao = document.getElementById("mySelect").selectedIndex;
-		var opcao = document.getElementById("mySelect").options;
-		alert("Index: " + opcao[posicao].index + " is " + opcao[posicao].text);
-	}
-	</script>
   </body>
 </html>
