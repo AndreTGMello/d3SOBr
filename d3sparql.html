@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+  <head>
+    <script src="lib/jquery/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="lib/google-code-prettify/prettify.css"/>
+    <link rel="stylesheet" type="text/css" href="lib/google-code-prettify/prettify-desert.css"/>
+    <script src="lib/google-code-prettify/prettify.js"></script>
+    <script>
+    $.get("d3sparql.js", function(data) {
+      $("#code").text(data);
+      prettyPrint();
+    })
+    </script>
+  </head>
+  <body>
+    <div id="query" style="margin: 10px">
+      <h1><center>Plataforma de Visualização de Dados Orçamentários</center></h1>
+      <pre class="prettyprint" background-image="lib/imagens/each.jpg"><code class="language-js" id="code">
+	  <center>
+	  <h4>O presente projeto, criado para a disciplina de Soluções Web Baseadas em Software Livre,
+	  visa dar continuidade ao desenvolvimento de um portal de visualização de dados 
+	  orçamentários brasileiros armazenados nos padrões da Web Semântica. 
+	  Os dados em questão se encontram disponíveis através de um banco de dados triplestore 
+	  e serão utilizados para alimentar o sistema web.</h4>
+	  <h4> Visualizações criadas a partir da biblioteca d3sparql: <a href=https://github.com/ktym/d3sparql.git target="_blank">https://github.com/ktym/d3sparql.git</a></h4>
+	  </center>
+	  </code></pre>
+    </div>
+  </body>
+</html>

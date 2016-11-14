@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+  <head>
+    <script src="lib/jquery/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="lib/google-code-prettify/prettify.css"/>
+    <link rel="stylesheet" type="text/css" href="lib/google-code-prettify/prettify-desert.css"/>
+    <script src="lib/google-code-prettify/prettify.js"></script>
+    <script>
+    $.get("d3sparql.js", function(data) {
+      $("#code").text(data);
+      prettyPrint();
+    })
+    </script>
+  </head>
+  <body>
+    <div id="query" style="margin: 10px">
+      <h1><center>Trabalho de Soluções Web Baseadas em Software Livre</center></h1>
+      <pre class="prettyprint" background-image="lib/imagens/each.jpg"><code class="language-js" id="code">
+	  <center>
+	  <h3>André Mello 7137440</h3>
+	  <h3>Cinthia Mancusi Valeije 8623830</h3>
+	  <h3>Gustavo Gamino 8516462</h3>
+	  <h3>Victor Samuel Rubio Carlos 8082719</h3>
+	  </center>
+	  </code></pre>
+    </div>
+  </body>
+</html>
