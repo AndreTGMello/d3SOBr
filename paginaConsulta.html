@@ -11,15 +11,6 @@
 		fill: brown;
 	}
 	</style>
-	<script>
-	function loadframe(html) {
-		$("#iframeDados").attr("src", html)
-		//.load(function() {
-		//  $(this).css("height", $(this).contents().height() + 100 + "px")
-		//})
-		$(window).scrollTop(0)
-	}
-	</script>
 </head>
 <body>
 	<div id="query" style="margin: 10px">
@@ -53,7 +44,16 @@
 					</option>
 				</select>
 			</p>
-
+<p>Escolha um ano:
+				<select id="selectAno">
+					<option>
+						2010
+					</option>
+					<option>
+						2015
+					</option>
+				</select>
+			</p>
 			<p>Escolha um município:
 				<select id="selectMunicipio">
 					<option>
@@ -62,24 +62,7 @@
 				</select>
 			</p>
 
-			<script>
-			function opcaoEscolhida(){
-				var posicao = document.getElementById("selectTipoVisualizacao").selectedIndex;
-				var opcao = document.getElementById("selectEstado").options;
-				return opcao[posicao].text
-			}
-
-			function abrePagina(){
-				nomePagina = opcaoEscolhida();
-				nomePagina = "d3sparql-" + nomePagina + ".html";
-				//alert(nomePagina)
-				return nomePagina;
-			}
-			</script>
-
-			<button><a class="brand" href="javascript:loadframe(abrePagina())"><i class="icon-th"></i>ENVIAR DADOS</a></button>
-
-			<iframe id="iframeDados" width="100%" height="1000" frameborder="0" seamless></iframe>
+			<button onclick="exec()"><i class="icon-th"></i>ENVIAR DADOS</button>
 		</div>
 		<div id="result"></div>
 	</body>

@@ -9,9 +9,33 @@
 	<link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet">
 	<link href="lib/css/styles.css" rel ="stylesheet">
 	<script>
-	function carregaFrame(page){
-		$('#frame').load(page, function() {
+
+	function carregaFrame(div, page){
+		$('#'+div).load(page, function() {
 		});
+	}
+	function opcaoEscolhida(){
+		var posicao = document.getElementById("selectTipoVisualizacao").selectedIndex;
+		var opcao = document.getElementById("selectEstado").options;
+		var ano = document.getElementById("selectAno").selectedIndex;
+		return opcao[posicao].text
+	}
+
+	function exec() {
+		d3sparql.debug = true;
+		var endpoint = "http://togostanza.org/sparql";
+		var sparql = "PREFIX up: <http://purl.uniprot.org/core/> PREFIX ec: <http://purl.uniprot.org/enzyme/> PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX skos: <http://www.w3.org/2004/02/skos/core#> SELECT  ?root        ?parent         ?enzyme        (COUNT(?protein) AS ?value) FROM <http://togogenome.org/graph/uniprot> WHERE {        VALUES ?root { ec:1.-.-.- }        ?root skos:narrowerTransitive* ?enzyme .        ?parent skos:narrowerTransitive ?enzyme .        ?protein up:enzyme ?enzyme . }GROUP BY ?root ?parent ?enzyme ORDER BY ?enzyme"
+		d3sparql.query(endpoint, sparql, render);
+	}
+	function render(json) {
+		var config = {
+			"width": 1000,
+			"height": 600,
+			"selector": "#result"
+		}
+		if ($("#selectTipoVisualizacao").selectedIndex == "treemapzoom") {
+			d3sparql.treemapzoom(json, config);
+		}
 	}
 	</script>
 </head>
@@ -20,8 +44,8 @@
 		<div class="navbar-inner" style="padding-left: 20px">
 			<br>
 			<center>
-				<button onclick="carregaFrame('sobre.html')"><i class="icon-th"></i>Sobre</a></button>
-				<button onclick="carregaFrame('paginaConsulta.html')"><i class="icon-th"></i>Consultas</a></button>
+				<button onclick="carregaFrame('frame','sobre.html')"><i class="icon-th"></i>Sobre</a></button>
+				<button onclick="carregaFrame('frame','paginaConsulta.html')"><i class="icon-th"></i>Consultas</a></button>
 			</center>
 			<br>
 		</div>
