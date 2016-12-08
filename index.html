@@ -9,13 +9,14 @@
 	<link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet">
 	<link href="lib/css/styles.css" rel ="stylesheet">
 	<script>
-	function carregaFrame (page){
+	function carregaFrame(page){
 		$('#frame').load(page, function() {
 			alert('Load was performed.');
+			console.log(page);
 		});
 	}
+	$(document).ready(console.log('Ini'););
 	$(document).ready(carregaFrame('paginaConsulta.html'));
-	$(document).ready(alert('TEST'));
 	</script>
 </head>
 <body>
@@ -23,8 +24,8 @@
 		<div class="navbar-inner" style="padding-left: 20px">
 			<br>
 			<center>
-				<button><a class="brand" href="javascript:loadframe('sobre.html')"><i class="icon-th"></i>Sobre</a></button>
-				<button><a class="brand" href="javascript:loadframe('paginaConsulta.html')"><i class="icon-th"></i>Consultas</a></button>
+				<button onclick="carregaFrame('sobre.html')"><i class="icon-th"></i>Sobre</a></button>
+				<button onclick="carregaFrame('paginaConsulta.html')"><i class="icon-th"></i>Consultas</a></button>
 			</center>
 			<br>
 		</div>

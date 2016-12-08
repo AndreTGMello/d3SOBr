@@ -1,86 +1,86 @@
 <!DOCTYPE html>
-<meta charset="utf-8">
 <html>
-  <head>
+<head>
+	<meta charset="utf-8">
 	<script src="lib/jquery/jquery.min.js"></script>
-    <script src="lib/d3/d3.v3.min.js"></script>
-    <script src="d3sparql.js"></script>
+	<script src="lib/d3/d3.v3.min.js"></script>
+	<script src="d3sparql.js"></script>
 	<link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.css"/>
-    <style>
-		.bar:hover {
+	<style>
+	.bar:hover {
 		fill: brown;
-		}
-    </style>
+	}
+	</style>
 	<script>
-		function loadframe(html) {
-			$("#iframeDados").attr("src", html)
-			//.load(function() {
-			//  $(this).css("height", $(this).contents().height() + 100 + "px")
-			//})
+	function loadframe(html) {
+		$("#iframeDados").attr("src", html)
+		//.load(function() {
+		//  $(this).css("height", $(this).contents().height() + 100 + "px")
+		//})
 		$(window).scrollTop(0)
-		}
+	}
 	</script>
-  </head>
-  <body>
-    <div id="query" style="margin: 10px">
-      <center><h1>Visualização de Orçamentos do Brasil</h1></center>
-	  <p>Escolha uma forma de visualização dos dados
-	  <select id="selectTipoVisualizacao">
-		<option>barchart</option>
-		<option>circlepack</option>
-		<option>coordmap</option>
-		<option>dendrogram</option>
-		<option>forcegraph</option>
-		<option>htmlhash</option>
-		<option>htmltable</option>
-		<option>namedmap</option>
-		<option>piechart</option>
-		<option>roundtree</option>
-		<option>sankey</option>
-		<option>scatterplot</option>
-		<option>sunburst</option>
-		<option>treemap</option>
-		<option>treemapzoom</option>
-	  </select></p>
+</head>
+<body>
+	<div id="query" style="margin: 10px">
+		<center><h1>Visualização de Orçamentos do Brasil</h1></center>
+		<p>Escolha uma forma de visualização dos dados
+			<select id="selectTipoVisualizacao">
+				<option>barchart</option>
+				<option>circlepack</option>
+				<option>coordmap</option>
+				<option>dendrogram</option>
+				<option>forcegraph</option>
+				<option>htmlhash</option>
+				<option>htmltable</option>
+				<option>namedmap</option>
+				<option>piechart</option>
+				<option>roundtree</option>
+				<option>sankey</option>
+				<option>scatterplot</option>
+				<option>sunburst</option>
+				<option>treemap</option>
+				<option>treemapzoom</option>
+			</select></p>
 
-	<p>Escolha um estado:
-		<select id="selectEstado">
-			<option>
-				Todos
-			</option>
-			<option>
-				SP
-			</option>
-		</select>
-	</p>
+			<p>Escolha um estado:
+				<select id="selectEstado">
+					<option>
+						Todos
+					</option>
+					<option>
+						SP
+					</option>
+				</select>
+			</p>
 
-	<p>Escolha um município:
-		<select id="selectMunicipio">
-			<option>
-				São Paulo
-			</option>
-		</select>
-	</p>
+			<p>Escolha um município:
+				<select id="selectMunicipio">
+					<option>
+						São Paulo
+					</option>
+				</select>
+			</p>
 
-	<script>
-		function opcaoEscolhida(){
-			var posicao = document.getElementById("selectTipoVisualizacao").selectedIndex;
-			var opcao = document.getElementById("selectEstado").options;
-			return opcao[posicao].text
-		}
+			<script>
+			function opcaoEscolhida(){
+				var posicao = document.getElementById("selectTipoVisualizacao").selectedIndex;
+				var opcao = document.getElementById("selectEstado").options;
+				return opcao[posicao].text
+			}
 
-		function abrePagina(){
-			nomePagina = opcaoEscolhida();
-			nomePagina = "d3sparql-" + nomePagina + ".html";
-			//alert(nomePagina)
-			return nomePagina;
-		}
-	</script>
+			function abrePagina(){
+				nomePagina = opcaoEscolhida();
+				nomePagina = "d3sparql-" + nomePagina + ".html";
+				//alert(nomePagina)
+				return nomePagina;
+			}
+			</script>
 
-	<button><a class="brand" href="javascript:loadframe(abrePagina())"><i class="icon-th"></i>ENVIAR DADOS</a></button>
+			<button><a class="brand" href="javascript:loadframe(abrePagina())"><i class="icon-th"></i>ENVIAR DADOS</a></button>
 
-	<iframe id="iframeDados" width="100%" height="1000" frameborder="0" seamless></iframe>
-    </div>
-    <div id="result"></div>
-  </body>
-</html>
+			<iframe id="iframeDados" width="100%" height="1000" frameborder="0" seamless></iframe>
+		</div>
+		<div id="result"></div>
+	</body>
+	</html>
