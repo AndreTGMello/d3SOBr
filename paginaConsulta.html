@@ -11,6 +11,21 @@
 		fill: brown;
 	}
 	</style>
+	<style>
+    text {
+      pointer-events: none;
+    }
+    .children rect.parent,
+    .grandparent rect {
+      cursor: pointer;
+    }
+    .grandparent:hover rect {
+      opacity: 0.8;
+    }
+    .children:hover rect.child {
+      opacity: 0.2;
+    }
+    </style>
 	<script>
 	function exec() {
 			d3sparql.debug = true;
