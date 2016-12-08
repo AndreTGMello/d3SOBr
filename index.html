@@ -12,10 +12,10 @@
 	function carregaFrame(page){
 		$('#frame').load(page, function() {
 			alert('Load was performed.');
-			console.log(page);
+			console.log('Pagina: ' + page);
 		});
 	}
-	$(document).ready(console.log('Ini'););
+	$(document).ready(console.log('Ini'));
 	$(document).ready(carregaFrame('paginaConsulta.html'));
 	</script>
 </head>
