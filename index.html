@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<meta charset="UTF-8">
+<html>
 <head>
+	<meta charset="UTF-8">
 	<title>Visualização Orçamento Brasileiro</title>
 	<script src="lib/jquery/jquery.min.js"></script>
 	<script src="lib/bootstrap/js/bootstrap.min.js"></script>
@@ -9,26 +10,27 @@
 	<link href="lib/css/styles.css" rel ="stylesheet">
 	<script>
 	function carregaFrame (page){
-		   $('#frame').load(page, function() {
-		      alert('Load was performed.');
-		   });
-		}
-		$(document).ready(carregaFrame('paginaConsulta.html'));
+		$('#frame').load(page, function() {
+			alert('Load was performed.');
+		});
+	}
+	$(document).ready(carregaFrame('paginaConsulta.html'));
 	</script>
 </head>
 <body>
 	<div class="navbar navbar-fixed-top navbar-inverse">
-	  <div class="navbar-inner" style="padding-left: 20px">
-		<br>
-		<center>
-		<button><a class="brand" href="javascript:loadframe('sobre.html')"><i class="icon-th"></i>Sobre</a></button>
-		<button><a class="brand" href="javascript:loadframe('paginaConsulta.html')"><i class="icon-th"></i>Consultas</a></button>
-		</center>
-		<br>
-	  </div>
+		<div class="navbar-inner" style="padding-left: 20px">
+			<br>
+			<center>
+				<button><a class="brand" href="javascript:loadframe('sobre.html')"><i class="icon-th"></i>Sobre</a></button>
+				<button><a class="brand" href="javascript:loadframe('paginaConsulta.html')"><i class="icon-th"></i>Consultas</a></button>
+			</center>
+			<br>
+		</div>
 	</div>
 
-	<div class="frame" style="padding: 50px">
+	<div id="frame" style="padding: 50px">
 
 	</div>
 </body>
+</html>
