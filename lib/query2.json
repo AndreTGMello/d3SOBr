@@ -1,8 +1,8 @@
 {
   "head": {
-    "vars": [ "tituloCategoriaEconomicaDaReceita" , "tituloOrigem" , "tituloEspecie" , ".1" ]
+  "link": [],  "vars": [ "tituloCategoriaEconomicaDaReceita" , "tituloOrigem" , "tituloEspecie" , ".1" ]
   } ,
-  "results": {
+  "results": { "distinct": false, "ordered": true,
     "bindings": [
       {
         "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
