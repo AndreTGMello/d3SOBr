@@ -24,6 +24,10 @@
       }
       d3sparql.barchart(json, config)
     }
+
+    function exec_offline() {
+      d3.json("lib/query.json", render)
+    }
     function toggle() {
       d3sparql.toggle()
     }

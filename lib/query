@@ -1,0 +1,101 @@
+{
+  "head": {
+    "vars": [ "var_x" , "var_y" ]
+  } ,
+  "results": {
+    "bindings": [
+      {
+        "var_x": { "type": "literal" , "value": "MINISTERIO DO PLANEJAMENTO,ORCAMENTO E GESTAO" } ,
+        "var_y": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "19243526" }
+      } ,
+      {
+        "var_x": { "type": "literal" , "value": "PRESIDENCIA DA REPUBLICA" } ,
+        "var_y": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "18890707" }
+      } ,
+      {
+        "var_x": { "type": "literal" , "value": "MINISTERIO DA JUSTICA" } ,
+        "var_y": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "14213558" }
+      } ,
+      {
+        "var_x": { "type": "literal" , "value": "MINISTERIO DA EDUCACAO" } ,
+        "var_y": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "4789977" }
+      } ,
+      {
+        "var_x": { "type": "literal" , "value": "MINIST. DA AGRICUL.,PECUARIA E ABASTECIMENTO" } ,
+        "var_y": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "4334355" }
+      } ,
+      {
+        "var_x": { "type": "literal" , "value": "MINISTERIO DA SAUDE" } ,
+        "var_y": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "4144023" }
+      } ,
+      {
+        "var_x": { "type": "literal" , "value": "MINISTERIO DO DESENVOLVIMENTO AGRARIO" } ,
+        "var_y": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3931253" }
+      } ,
+      {
+        "var_x": { "type": "literal" , "value": "MINISTERIO DA FAZENDA" } ,
+        "var_y": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2460332" }
+      } ,
+      {
+        "var_x": { "type": "literal" , "value": "MINISTERIO DA DEFESA" } ,
+        "var_y": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1969710" }
+      } ,
+      {
+        "var_x": { "type": "literal" , "value": "MINISTERIO DO MEIO AMBIENTE" } ,
+        "var_y": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1565633" }
+      } ,
+      {
+        "var_x": { "type": "literal" , "value": "MINISTERIO DO TRABALHO E EMPREGO" } ,
+        "var_y": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1463582" }
+      } ,
+      {
+        "var_x": { "type": "literal" , "value": "MINISTERIO DE MINAS E ENERGIA" } ,
+        "var_y": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "631260" }
+      } ,
+      {
+        "var_x": { "type": "literal" , "value": "MINISTERIO DA CIENCIA E TECNOLOGIA" } ,
+        "var_y": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "548706" }
+      } ,
+      {
+        "var_x": { "type": "literal" , "value": "MINISTERIO DOS TRANSPORTES" } ,
+        "var_y": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "352647" }
+      } ,
+      {
+        "var_x": { "type": "literal" , "value": "MINISTERIO DA PREVIDENCIA SOCIAL" } ,
+        "var_y": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "342844" }
+      } ,
+      {
+        "var_x": { "type": "literal" , "value": "MINISTERIO DA INTEGRACAO NACIONAL" } ,
+        "var_y": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "340434" }
+      } ,
+      {
+        "var_x": { "type": "literal" , "value": "MINISTERIO DO DESENV,IND. E COMERCIO EXTERIOR" } ,
+        "var_y": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "276101" }
+      } ,
+      {
+        "var_x": { "type": "literal" , "value": "MINISTERIO DAS CIDADES" } ,
+        "var_y": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "209404" }
+      } ,
+      {
+        "var_x": { "type": "literal" , "value": "MINISTERIO DA CULTURA" } ,
+        "var_y": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "149571" }
+      } ,
+      {
+        "var_x": { "type": "literal" , "value": "MINISTERIO DAS COMUNICACOES" } ,
+        "var_y": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "81476" }
+      } ,
+      {
+        "var_x": { "type": "literal" , "value": "MINISTERIO DAS RELACOES EXTERIORES" } ,
+        "var_y": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "43402" }
+      } ,
+      {
+        "var_x": { "type": "literal" , "value": "MINISTERIO DA PESCA E AQUICULTURA" } ,
+        "var_y": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "42668" }
+      } ,
+      {
+        "var_x": { "type": "literal" , "value": "MINISTERIO DO ESPORTE" } ,
+        "var_y": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2479" }
+      }
+    ]
+  }
+}
