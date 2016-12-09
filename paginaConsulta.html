@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<script src="lib/jquery/jquery.min.js"></script>
 	<script src="lib/d3/d3.v3.min.js"></script>
+	<script src="lib/d3SOBr.js"></script>
 	<script src="d3sparql.js"></script>
 	<link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.css"/>
 	<style>
@@ -26,22 +27,6 @@
       opacity: 0.2;
     }
     </style>
-	<script>
-	function exec() {
-			d3sparql.debug = true;
-			var endpoint = "http://togostanza.org/sparql";
-			var sparql = "PREFIX up: <http://purl.uniprot.org/core/> PREFIX ec: <http://purl.uniprot.org/enzyme/> PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX skos: <http://www.w3.org/2004/02/skos/core#> SELECT  ?root        ?parent         ?enzyme        (COUNT(?protein) AS ?value) FROM <http://togogenome.org/graph/uniprot> WHERE {        VALUES ?root { ec:1.-.-.- }        ?root skos:narrowerTransitive* ?enzyme .        ?parent skos:narrowerTransitive ?enzyme .        ?protein up:enzyme ?enzyme . }GROUP BY ?root ?parent ?enzyme ORDER BY ?enzyme"
-			d3sparql.query(endpoint, sparql, render);
-		}
-		function render(json) {
-			var config = {
-				"width": 1000,
-				"height": 600,
-				"selector": "#result"
-			}
-			d3sparql.treemapzoom(json, config);
-		}
-	</script>
 </head>
 <body>
 	<div id="query" style="margin: 10px">
