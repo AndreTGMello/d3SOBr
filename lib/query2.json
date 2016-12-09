@@ -1,0 +1,2691 @@
+{
+  "head": {
+    "vars": [ "tituloCategoriaEconomicaDaReceita" , "tituloOrigem" , "tituloEspecie" , ".1" ]
+  } ,
+  "results": {
+    "bindings": [
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "ALIENACAO DE BENS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "ALIENACAO DE BENS IMOVEIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "4267373928" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "ALIENACAO DE BENS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "ALIENACAO DE BENS MOVEIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "14414105825" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "ALIENACAO DE BENS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "CONTRIBUICOES ECONOMICAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "4267373928" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "ALIENACAO DE BENS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "CONTRIBUICOES SOCIAIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "14414105825" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "ALIENACAO DE BENS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "IMPOSTOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "14414105825" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "ALIENACAO DE BENS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "INDENIZACOES E RESTITUICOES" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "4267373928" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "ALIENACAO DE BENS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "MULTAS E JUROS DE MORA" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "14414105825" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "ALIENACAO DE BENS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "OPERACOES DE CREDITO EXTERNAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "4267373928" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "ALIENACAO DE BENS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "OPERACOES DE CREDITO INTERNAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "14414105825" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "ALIENACAO DE BENS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITA DA PRODUCAO ANIMAL E DERIVADOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "4267373928" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "ALIENACAO DE BENS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITA DA PRODUCAO VEGETAL" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "14414105825" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "ALIENACAO DE BENS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS DA INDUSTRIA DE TRANSFORMACAO" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "4267373928" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "ALIENACAO DE BENS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS DE VALORES MOBILIARIOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "4267373928" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "ALIENACAO DE BENS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS IMOBILIARIAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "14414105825" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "ALIENACAO DE BENS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TAXAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "4267373928" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "ALIENACAO DE BENS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TRANSFERENCIAS INTERGOVERNAMENTAIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "4267373928" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "AMORTIZACOES DE EMPRESTIMOS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "ALIENACAO DE BENS IMOVEIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "5432492541" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "AMORTIZACOES DE EMPRESTIMOS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "ALIENACAO DE BENS MOVEIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "865501093" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "AMORTIZACOES DE EMPRESTIMOS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "COMPENSACOES FINANCEIRAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3902328434" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "AMORTIZACOES DE EMPRESTIMOS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "CONTRIBUICOES ECONOMICAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "5432492541" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "AMORTIZACOES DE EMPRESTIMOS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "CONTRIBUICOES SOCIAIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "865501093" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "AMORTIZACOES DE EMPRESTIMOS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "IMPOSTOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "865501093" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "AMORTIZACOES DE EMPRESTIMOS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "INDENIZACOES E RESTITUICOES" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "5432492541" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "AMORTIZACOES DE EMPRESTIMOS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "MULTAS E JUROS DE MORA" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "865501093" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "AMORTIZACOES DE EMPRESTIMOS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "OPERACOES DE CREDITO EXTERNAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "5432492541" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "AMORTIZACOES DE EMPRESTIMOS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "OPERACOES DE CREDITO INTERNAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "865501093" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "AMORTIZACOES DE EMPRESTIMOS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "OUTRAS RECEITAS AGROPECUARIAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "6692465" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "AMORTIZACOES DE EMPRESTIMOS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "OUTRAS RECEITAS PATRIMONIAIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "6692465" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "AMORTIZACOES DE EMPRESTIMOS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITA DA DIVIDA ATIVA" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1157981272" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "AMORTIZACOES DE EMPRESTIMOS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITA DA PRODUCAO ANIMAL E DERIVADOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "5432492541" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "AMORTIZACOES DE EMPRESTIMOS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITA DA PRODUCAO VEGETAL" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "865501093" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "AMORTIZACOES DE EMPRESTIMOS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITA DE CONCESSOES E PERMISSOES" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1157981272" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "AMORTIZACOES DE EMPRESTIMOS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS CORRENTES DIVERSAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "6692465" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "AMORTIZACOES DE EMPRESTIMOS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS DA INDUSTRIA DE TRANSFORMACAO" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "5432492541" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "AMORTIZACOES DE EMPRESTIMOS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS DE VALORES MOBILIARIOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "5432492541" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "AMORTIZACOES DE EMPRESTIMOS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS IMOBILIARIAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "865501093" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "AMORTIZACOES DE EMPRESTIMOS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "REMUNERACAO DAS DISPONIBILIDADES TES.NACIONAL" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3902328434" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "AMORTIZACOES DE EMPRESTIMOS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TAXAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "5432492541" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "AMORTIZACOES DE EMPRESTIMOS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TRANSFERENCIAS DE INSTITUICOES PRIVADAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1157981272" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "AMORTIZACOES DE EMPRESTIMOS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TRANSFERENCIAS DO EXTERIOR" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3902328434" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "AMORTIZACOES DE EMPRESTIMOS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TRANSFERENCIAS INTERGOVERNAMENTAIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "5432492541" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OPERACOES DE CREDITO" } ,
+        "tituloEspecie": { "type": "literal" , "value": "ALIENACAO DE BENS IMOVEIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3691596411" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OPERACOES DE CREDITO" } ,
+        "tituloEspecie": { "type": "literal" , "value": "ALIENACAO DE BENS MOVEIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "656406891" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OPERACOES DE CREDITO" } ,
+        "tituloEspecie": { "type": "literal" , "value": "CONTRIBUICOES ECONOMICAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3691596411" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OPERACOES DE CREDITO" } ,
+        "tituloEspecie": { "type": "literal" , "value": "CONTRIBUICOES SOCIAIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "656406891" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OPERACOES DE CREDITO" } ,
+        "tituloEspecie": { "type": "literal" , "value": "IMPOSTOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "656406891" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OPERACOES DE CREDITO" } ,
+        "tituloEspecie": { "type": "literal" , "value": "INDENIZACOES E RESTITUICOES" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3691596411" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OPERACOES DE CREDITO" } ,
+        "tituloEspecie": { "type": "literal" , "value": "MULTAS E JUROS DE MORA" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "656406891" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OPERACOES DE CREDITO" } ,
+        "tituloEspecie": { "type": "literal" , "value": "OPERACOES DE CREDITO EXTERNAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3691596411" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OPERACOES DE CREDITO" } ,
+        "tituloEspecie": { "type": "literal" , "value": "OPERACOES DE CREDITO INTERNAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "656406891" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OPERACOES DE CREDITO" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITA DA PRODUCAO ANIMAL E DERIVADOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3691596411" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OPERACOES DE CREDITO" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITA DA PRODUCAO VEGETAL" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "656406891" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OPERACOES DE CREDITO" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS DA INDUSTRIA DE TRANSFORMACAO" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3691596411" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OPERACOES DE CREDITO" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS DE VALORES MOBILIARIOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3691596411" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OPERACOES DE CREDITO" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS IMOBILIARIAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "656406891" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OPERACOES DE CREDITO" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TAXAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3691596411" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OPERACOES DE CREDITO" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TRANSFERENCIAS INTERGOVERNAMENTAIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3691596411" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OUTRAS RECEITAS CORRENTES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "ALIENACAO DE BENS IMOVEIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3571055536" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OUTRAS RECEITAS CORRENTES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "ALIENACAO DE BENS MOVEIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "11472343694" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OUTRAS RECEITAS CORRENTES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "CONTRIBUICOES ECONOMICAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3571055536" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OUTRAS RECEITAS CORRENTES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "CONTRIBUICOES SOCIAIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "11472343694" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OUTRAS RECEITAS CORRENTES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "IMPOSTOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "11472343694" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OUTRAS RECEITAS CORRENTES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "INDENIZACOES E RESTITUICOES" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3571055536" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OUTRAS RECEITAS CORRENTES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "MULTAS E JUROS DE MORA" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "11472343694" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OUTRAS RECEITAS CORRENTES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "OPERACOES DE CREDITO EXTERNAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3571055536" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OUTRAS RECEITAS CORRENTES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "OPERACOES DE CREDITO INTERNAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "11472343694" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OUTRAS RECEITAS CORRENTES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "OUTRAS RECEITAS AGROPECUARIAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2833730648" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OUTRAS RECEITAS CORRENTES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "OUTRAS RECEITAS PATRIMONIAIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2833730648" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OUTRAS RECEITAS CORRENTES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITA DA DIVIDA ATIVA" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2863558373" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OUTRAS RECEITAS CORRENTES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITA DA PRODUCAO ANIMAL E DERIVADOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3571055536" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OUTRAS RECEITAS CORRENTES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITA DA PRODUCAO VEGETAL" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "11472343694" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OUTRAS RECEITAS CORRENTES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITA DE CONCESSOES E PERMISSOES" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2863558373" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OUTRAS RECEITAS CORRENTES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS CORRENTES DIVERSAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2833730648" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OUTRAS RECEITAS CORRENTES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS DA INDUSTRIA DE TRANSFORMACAO" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3571055536" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OUTRAS RECEITAS CORRENTES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS DE VALORES MOBILIARIOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3571055536" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OUTRAS RECEITAS CORRENTES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS IMOBILIARIAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "11472343694" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OUTRAS RECEITAS CORRENTES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TAXAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3571055536" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OUTRAS RECEITAS CORRENTES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TRANSFERENCIAS DE INSTITUICOES PRIVADAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2863558373" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OUTRAS RECEITAS CORRENTES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TRANSFERENCIAS INTERGOVERNAMENTAIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3571055536" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OUTRAS RECEITAS DE CAPITAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "ALIENACAO DE BENS IMOVEIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "528085924" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OUTRAS RECEITAS DE CAPITAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "CONTRIBUICOES ECONOMICAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "528085924" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OUTRAS RECEITAS DE CAPITAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "INDENIZACOES E RESTITUICOES" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "528085924" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OUTRAS RECEITAS DE CAPITAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "OPERACOES DE CREDITO EXTERNAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "528085924" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OUTRAS RECEITAS DE CAPITAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITA DA PRODUCAO ANIMAL E DERIVADOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "528085924" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OUTRAS RECEITAS DE CAPITAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS DA INDUSTRIA DE TRANSFORMACAO" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "528085924" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OUTRAS RECEITAS DE CAPITAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS DE VALORES MOBILIARIOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "528085924" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OUTRAS RECEITAS DE CAPITAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TAXAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "528085924" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OUTRAS RECEITAS DE CAPITAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TRANSFERENCIAS INTERGOVERNAMENTAIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "528085924" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA AGROPECUARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "ALIENACAO DE BENS IMOVEIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "7567889" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA AGROPECUARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "ALIENACAO DE BENS MOVEIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "12711687" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA AGROPECUARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "CONTRIBUICOES ECONOMICAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "7567889" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA AGROPECUARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "CONTRIBUICOES SOCIAIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "12711687" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA AGROPECUARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "IMPOSTOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "12711687" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA AGROPECUARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "INDENIZACOES E RESTITUICOES" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "7567889" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA AGROPECUARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "MULTAS E JUROS DE MORA" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "12711687" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA AGROPECUARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "OPERACOES DE CREDITO EXTERNAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "7567889" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA AGROPECUARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "OPERACOES DE CREDITO INTERNAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "12711687" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA AGROPECUARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "OUTRAS RECEITAS AGROPECUARIAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "44935" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA AGROPECUARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "OUTRAS RECEITAS PATRIMONIAIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "44935" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA AGROPECUARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITA DA PRODUCAO ANIMAL E DERIVADOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "7567889" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA AGROPECUARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITA DA PRODUCAO VEGETAL" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "12711687" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA AGROPECUARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS CORRENTES DIVERSAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "44935" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA AGROPECUARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS DA INDUSTRIA DE TRANSFORMACAO" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "7567889" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA AGROPECUARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS DE VALORES MOBILIARIOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "7567889" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA AGROPECUARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS IMOBILIARIAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "12711687" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA AGROPECUARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TAXAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "7567889" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA AGROPECUARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TRANSFERENCIAS INTERGOVERNAMENTAIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "7567889" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA DE CONTRIBUICOES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "ALIENACAO DE BENS IMOVEIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "4267373928" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA DE CONTRIBUICOES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "ALIENACAO DE BENS MOVEIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "14414105825" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA DE CONTRIBUICOES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "CONTRIBUICOES ECONOMICAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "4267373928" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA DE CONTRIBUICOES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "CONTRIBUICOES SOCIAIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "14414105825" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA DE CONTRIBUICOES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "IMPOSTOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "14414105825" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA DE CONTRIBUICOES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "INDENIZACOES E RESTITUICOES" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "4267373928" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA DE CONTRIBUICOES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "MULTAS E JUROS DE MORA" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "14414105825" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA DE CONTRIBUICOES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "OPERACOES DE CREDITO EXTERNAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "4267373928" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA DE CONTRIBUICOES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "OPERACOES DE CREDITO INTERNAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "14414105825" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA DE CONTRIBUICOES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITA DA PRODUCAO ANIMAL E DERIVADOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "4267373928" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA DE CONTRIBUICOES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITA DA PRODUCAO VEGETAL" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "14414105825" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA DE CONTRIBUICOES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS DA INDUSTRIA DE TRANSFORMACAO" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "4267373928" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA DE CONTRIBUICOES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS DE VALORES MOBILIARIOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "4267373928" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA DE CONTRIBUICOES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS IMOBILIARIAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "14414105825" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA DE CONTRIBUICOES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TAXAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "4267373928" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA DE CONTRIBUICOES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TRANSFERENCIAS INTERGOVERNAMENTAIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "4267373928" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA DE SERVICOS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "AMORTIZACOES DE EMPRESTIMOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "7878437373" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA DE SERVICOS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITA DE SERVICOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "7878437373" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA INDUSTRIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "ALIENACAO DE BENS IMOVEIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "528085924" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA INDUSTRIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "CONTRIBUICOES ECONOMICAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "528085924" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA INDUSTRIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "INDENIZACOES E RESTITUICOES" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "528085924" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA INDUSTRIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "OPERACOES DE CREDITO EXTERNAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "528085924" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA INDUSTRIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITA DA PRODUCAO ANIMAL E DERIVADOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "528085924" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA INDUSTRIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS DA INDUSTRIA DE TRANSFORMACAO" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "528085924" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA INDUSTRIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS DE VALORES MOBILIARIOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "528085924" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA INDUSTRIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TAXAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "528085924" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA INDUSTRIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TRANSFERENCIAS INTERGOVERNAMENTAIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "528085924" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA PATRIMONIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "ALIENACAO DE BENS IMOVEIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "5432492541" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA PATRIMONIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "ALIENACAO DE BENS MOVEIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "865501093" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA PATRIMONIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "COMPENSACOES FINANCEIRAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3902328434" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA PATRIMONIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "CONTRIBUICOES ECONOMICAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "5432492541" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA PATRIMONIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "CONTRIBUICOES SOCIAIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "865501093" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA PATRIMONIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "IMPOSTOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "865501093" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA PATRIMONIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "INDENIZACOES E RESTITUICOES" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "5432492541" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA PATRIMONIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "MULTAS E JUROS DE MORA" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "865501093" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA PATRIMONIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "OPERACOES DE CREDITO EXTERNAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "5432492541" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA PATRIMONIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "OPERACOES DE CREDITO INTERNAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "865501093" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA PATRIMONIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "OUTRAS RECEITAS AGROPECUARIAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "6692465" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA PATRIMONIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "OUTRAS RECEITAS PATRIMONIAIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "6692465" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA PATRIMONIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITA DA DIVIDA ATIVA" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1157981272" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA PATRIMONIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITA DA PRODUCAO ANIMAL E DERIVADOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "5432492541" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA PATRIMONIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITA DA PRODUCAO VEGETAL" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "865501093" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA PATRIMONIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITA DE CONCESSOES E PERMISSOES" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1157981272" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA PATRIMONIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS CORRENTES DIVERSAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "6692465" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA PATRIMONIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS DA INDUSTRIA DE TRANSFORMACAO" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "5432492541" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA PATRIMONIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS DE VALORES MOBILIARIOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "5432492541" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA PATRIMONIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS IMOBILIARIAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "865501093" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA PATRIMONIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "REMUNERACAO DAS DISPONIBILIDADES TES.NACIONAL" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3902328434" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA PATRIMONIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TAXAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "5432492541" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA PATRIMONIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TRANSFERENCIAS DE INSTITUICOES PRIVADAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1157981272" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA PATRIMONIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TRANSFERENCIAS DO EXTERIOR" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3902328434" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA PATRIMONIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TRANSFERENCIAS INTERGOVERNAMENTAIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "5432492541" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA TRIBUTARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "ALIENACAO DE BENS IMOVEIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3691596411" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA TRIBUTARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "ALIENACAO DE BENS MOVEIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "656406891" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA TRIBUTARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "CONTRIBUICOES ECONOMICAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3691596411" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA TRIBUTARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "CONTRIBUICOES SOCIAIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "656406891" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA TRIBUTARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "IMPOSTOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "656406891" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA TRIBUTARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "INDENIZACOES E RESTITUICOES" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3691596411" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA TRIBUTARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "MULTAS E JUROS DE MORA" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "656406891" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA TRIBUTARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "OPERACOES DE CREDITO EXTERNAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3691596411" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA TRIBUTARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "OPERACOES DE CREDITO INTERNAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "656406891" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA TRIBUTARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITA DA PRODUCAO ANIMAL E DERIVADOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3691596411" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA TRIBUTARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITA DA PRODUCAO VEGETAL" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "656406891" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA TRIBUTARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS DA INDUSTRIA DE TRANSFORMACAO" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3691596411" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA TRIBUTARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS DE VALORES MOBILIARIOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3691596411" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA TRIBUTARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS IMOBILIARIAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "656406891" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA TRIBUTARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TAXAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3691596411" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA TRIBUTARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TRANSFERENCIAS INTERGOVERNAMENTAIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3691596411" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITAS CORRENTES A CLASSIFICAR" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS CORRENTES A CLASSIFICAR" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "280280050" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "TRANSFERENCIAS CORRENTES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "ALIENACAO DE BENS IMOVEIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "TRANSFERENCIAS CORRENTES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "COMPENSACOES FINANCEIRAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "19970303" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "TRANSFERENCIAS CORRENTES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "CONTRIBUICOES ECONOMICAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "TRANSFERENCIAS CORRENTES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "INDENIZACOES E RESTITUICOES" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "TRANSFERENCIAS CORRENTES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "OPERACOES DE CREDITO EXTERNAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "TRANSFERENCIAS CORRENTES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "REC.DIV.ATIVA PROV.DE AMORTIZ.EMPREST.FINANC." } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "581012" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "TRANSFERENCIAS CORRENTES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITA DA DIVIDA ATIVA" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "16356618" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "TRANSFERENCIAS CORRENTES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITA DA PRODUCAO ANIMAL E DERIVADOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "TRANSFERENCIAS CORRENTES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITA DE CONCESSOES E PERMISSOES" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "16356618" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "TRANSFERENCIAS CORRENTES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITA DIV ATIVA ALIENACAO ESTOQUES DE CAFE" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "229372856" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "TRANSFERENCIAS CORRENTES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS DA INDUSTRIA DE TRANSFORMACAO" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "TRANSFERENCIAS CORRENTES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS DE VALORES MOBILIARIOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "TRANSFERENCIAS CORRENTES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "REMUNERACAO DAS DISPONIBILIDADES TES.NACIONAL" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "19970303" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "TRANSFERENCIAS CORRENTES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TAXAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "TRANSFERENCIAS CORRENTES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TRANSFERENCIA DE OUTRAS INSTITUICOES PUBLICAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "229372856" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "TRANSFERENCIAS CORRENTES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TRANSFERENCIAS DE CONVENIOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "229768444" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "TRANSFERENCIAS CORRENTES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TRANSFERENCIAS DE INSTITUICOES PRIVADAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "16356618" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "TRANSFERENCIAS CORRENTES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TRANSFERENCIAS DE PESSOAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "581012" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "TRANSFERENCIAS CORRENTES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TRANSFERENCIAS DO EXTERIOR" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "19970303" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "TRANSFERENCIAS CORRENTES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TRANSFERENCIAS INTERGOVERNAMENTAIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "TRANSFERENCIAS CORRENTES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TRANSFERENCIAS PARA O COMBATE A FOME" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "395588" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "TRANSFERENCIAS DE CAPITAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "ALIENACAO DE BENS IMOVEIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "7567889" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "TRANSFERENCIAS DE CAPITAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "ALIENACAO DE BENS MOVEIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "12711687" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "TRANSFERENCIAS DE CAPITAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "CONTRIBUICOES ECONOMICAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "7567889" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "TRANSFERENCIAS DE CAPITAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "CONTRIBUICOES SOCIAIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "12711687" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "TRANSFERENCIAS DE CAPITAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "IMPOSTOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "12711687" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "TRANSFERENCIAS DE CAPITAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "INDENIZACOES E RESTITUICOES" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "7567889" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "TRANSFERENCIAS DE CAPITAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "MULTAS E JUROS DE MORA" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "12711687" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "TRANSFERENCIAS DE CAPITAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "OPERACOES DE CREDITO EXTERNAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "7567889" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "TRANSFERENCIAS DE CAPITAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "OPERACOES DE CREDITO INTERNAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "12711687" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "TRANSFERENCIAS DE CAPITAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "OUTRAS RECEITAS AGROPECUARIAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "44935" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "TRANSFERENCIAS DE CAPITAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "OUTRAS RECEITAS PATRIMONIAIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "44935" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "TRANSFERENCIAS DE CAPITAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITA DA PRODUCAO ANIMAL E DERIVADOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "7567889" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "TRANSFERENCIAS DE CAPITAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITA DA PRODUCAO VEGETAL" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "12711687" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "TRANSFERENCIAS DE CAPITAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS CORRENTES DIVERSAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "44935" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "TRANSFERENCIAS DE CAPITAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS DA INDUSTRIA DE TRANSFORMACAO" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "7567889" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "TRANSFERENCIAS DE CAPITAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS DE VALORES MOBILIARIOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "7567889" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "TRANSFERENCIAS DE CAPITAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS IMOBILIARIAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "12711687" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "TRANSFERENCIAS DE CAPITAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TAXAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "7567889" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES" } ,
+        "tituloOrigem": { "type": "literal" , "value": "TRANSFERENCIAS DE CAPITAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TRANSFERENCIAS INTERGOVERNAMENTAIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "7567889" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "ALIENACAO DE BENS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "ALIENACAO DE BENS IMOVEIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "32630" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "ALIENACAO DE BENS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "ALIENACAO DE BENS MOVEIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "154563" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "ALIENACAO DE BENS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "CONTRIBUICOES ECONOMICAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "32630" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "ALIENACAO DE BENS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "CONTRIBUICOES SOCIAIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "154563" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "ALIENACAO DE BENS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "IMPOSTOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "154563" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "ALIENACAO DE BENS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "INDENIZACOES E RESTITUICOES" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "32630" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "ALIENACAO DE BENS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "MULTAS E JUROS DE MORA" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "154563" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "ALIENACAO DE BENS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "OPERACOES DE CREDITO EXTERNAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "32630" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "ALIENACAO DE BENS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "OPERACOES DE CREDITO INTERNAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "154563" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "ALIENACAO DE BENS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITA DA PRODUCAO ANIMAL E DERIVADOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "32630" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "ALIENACAO DE BENS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITA DA PRODUCAO VEGETAL" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "154563" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "ALIENACAO DE BENS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS DA INDUSTRIA DE TRANSFORMACAO" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "32630" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "ALIENACAO DE BENS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS DE VALORES MOBILIARIOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "32630" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "ALIENACAO DE BENS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS IMOBILIARIAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "154563" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "ALIENACAO DE BENS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TAXAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "32630" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "ALIENACAO DE BENS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TRANSFERENCIAS INTERGOVERNAMENTAIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "32630" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "AMORTIZACOES DE EMPRESTIMOS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "ALIENACAO DE BENS IMOVEIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1892165" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "AMORTIZACOES DE EMPRESTIMOS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "ALIENACAO DE BENS MOVEIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "812750" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "AMORTIZACOES DE EMPRESTIMOS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "CONTRIBUICOES ECONOMICAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1892165" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "AMORTIZACOES DE EMPRESTIMOS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "CONTRIBUICOES SOCIAIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "812750" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "AMORTIZACOES DE EMPRESTIMOS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "IMPOSTOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "812750" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "AMORTIZACOES DE EMPRESTIMOS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "INDENIZACOES E RESTITUICOES" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1892165" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "AMORTIZACOES DE EMPRESTIMOS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "MULTAS E JUROS DE MORA" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "812750" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "AMORTIZACOES DE EMPRESTIMOS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "OPERACOES DE CREDITO EXTERNAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1892165" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "AMORTIZACOES DE EMPRESTIMOS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "OPERACOES DE CREDITO INTERNAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "812750" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "AMORTIZACOES DE EMPRESTIMOS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITA DA DIVIDA ATIVA" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "15207" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "AMORTIZACOES DE EMPRESTIMOS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITA DA PRODUCAO ANIMAL E DERIVADOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1892165" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "AMORTIZACOES DE EMPRESTIMOS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITA DA PRODUCAO VEGETAL" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "812750" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "AMORTIZACOES DE EMPRESTIMOS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITA DE CONCESSOES E PERMISSOES" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "15207" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "AMORTIZACOES DE EMPRESTIMOS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS DA INDUSTRIA DE TRANSFORMACAO" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1892165" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "AMORTIZACOES DE EMPRESTIMOS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS DE VALORES MOBILIARIOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1892165" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "AMORTIZACOES DE EMPRESTIMOS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS IMOBILIARIAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "812750" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "AMORTIZACOES DE EMPRESTIMOS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TAXAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1892165" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "AMORTIZACOES DE EMPRESTIMOS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TRANSFERENCIAS DE INSTITUICOES PRIVADAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "15207" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "AMORTIZACOES DE EMPRESTIMOS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TRANSFERENCIAS INTERGOVERNAMENTAIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1892165" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OPERACOES DE CREDITO" } ,
+        "tituloEspecie": { "type": "literal" , "value": "ALIENACAO DE BENS IMOVEIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "85797" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OPERACOES DE CREDITO" } ,
+        "tituloEspecie": { "type": "literal" , "value": "ALIENACAO DE BENS MOVEIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "-27130" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OPERACOES DE CREDITO" } ,
+        "tituloEspecie": { "type": "literal" , "value": "CONTRIBUICOES ECONOMICAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "85797" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OPERACOES DE CREDITO" } ,
+        "tituloEspecie": { "type": "literal" , "value": "CONTRIBUICOES SOCIAIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "-27130" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OPERACOES DE CREDITO" } ,
+        "tituloEspecie": { "type": "literal" , "value": "IMPOSTOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "-27130" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OPERACOES DE CREDITO" } ,
+        "tituloEspecie": { "type": "literal" , "value": "INDENIZACOES E RESTITUICOES" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "85797" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OPERACOES DE CREDITO" } ,
+        "tituloEspecie": { "type": "literal" , "value": "MULTAS E JUROS DE MORA" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "-27130" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OPERACOES DE CREDITO" } ,
+        "tituloEspecie": { "type": "literal" , "value": "OPERACOES DE CREDITO EXTERNAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "85797" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OPERACOES DE CREDITO" } ,
+        "tituloEspecie": { "type": "literal" , "value": "OPERACOES DE CREDITO INTERNAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "-27130" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OPERACOES DE CREDITO" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITA DA PRODUCAO ANIMAL E DERIVADOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "85797" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OPERACOES DE CREDITO" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITA DA PRODUCAO VEGETAL" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "-27130" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OPERACOES DE CREDITO" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS DA INDUSTRIA DE TRANSFORMACAO" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "85797" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OPERACOES DE CREDITO" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS DE VALORES MOBILIARIOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "85797" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OPERACOES DE CREDITO" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS IMOBILIARIAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "-27130" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OPERACOES DE CREDITO" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TAXAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "85797" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OPERACOES DE CREDITO" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TRANSFERENCIAS INTERGOVERNAMENTAIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "85797" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OUTRAS RECEITAS CORRENTES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "ALIENACAO DE BENS IMOVEIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "7419766" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OUTRAS RECEITAS CORRENTES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "ALIENACAO DE BENS MOVEIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "-1704025" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OUTRAS RECEITAS CORRENTES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "CONTRIBUICOES ECONOMICAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "7419766" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OUTRAS RECEITAS CORRENTES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "CONTRIBUICOES SOCIAIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "-1704025" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OUTRAS RECEITAS CORRENTES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "IMPOSTOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "-1704025" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OUTRAS RECEITAS CORRENTES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "INDENIZACOES E RESTITUICOES" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "7419766" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OUTRAS RECEITAS CORRENTES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "MULTAS E JUROS DE MORA" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "-1704025" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OUTRAS RECEITAS CORRENTES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "OPERACOES DE CREDITO EXTERNAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "7419766" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OUTRAS RECEITAS CORRENTES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "OPERACOES DE CREDITO INTERNAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "-1704025" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OUTRAS RECEITAS CORRENTES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "OUTRAS RECEITAS AGROPECUARIAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "4722605" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OUTRAS RECEITAS CORRENTES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "OUTRAS RECEITAS PATRIMONIAIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "4722605" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OUTRAS RECEITAS CORRENTES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITA DA PRODUCAO ANIMAL E DERIVADOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "7419766" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OUTRAS RECEITAS CORRENTES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITA DA PRODUCAO VEGETAL" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "-1704025" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OUTRAS RECEITAS CORRENTES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS CORRENTES DIVERSAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "4722605" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OUTRAS RECEITAS CORRENTES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS DA INDUSTRIA DE TRANSFORMACAO" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "7419766" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OUTRAS RECEITAS CORRENTES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS DE VALORES MOBILIARIOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "7419766" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OUTRAS RECEITAS CORRENTES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS IMOBILIARIAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "-1704025" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OUTRAS RECEITAS CORRENTES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TAXAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "7419766" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OUTRAS RECEITAS CORRENTES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TRANSFERENCIAS INTERGOVERNAMENTAIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "7419766" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OUTRAS RECEITAS DE CAPITAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "ALIENACAO DE BENS IMOVEIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "129697969" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OUTRAS RECEITAS DE CAPITAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "CONTRIBUICOES ECONOMICAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "129697969" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OUTRAS RECEITAS DE CAPITAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "INDENIZACOES E RESTITUICOES" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "129697969" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OUTRAS RECEITAS DE CAPITAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "OPERACOES DE CREDITO EXTERNAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "129697969" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OUTRAS RECEITAS DE CAPITAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITA DA PRODUCAO ANIMAL E DERIVADOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "129697969" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OUTRAS RECEITAS DE CAPITAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS DA INDUSTRIA DE TRANSFORMACAO" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "129697969" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OUTRAS RECEITAS DE CAPITAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS DE VALORES MOBILIARIOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "129697969" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OUTRAS RECEITAS DE CAPITAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TAXAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "129697969" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OUTRAS RECEITAS DE CAPITAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TRANSFERENCIAS INTERGOVERNAMENTAIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "129697969" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA DE CONTRIBUICOES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "ALIENACAO DE BENS IMOVEIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "32630" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA DE CONTRIBUICOES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "ALIENACAO DE BENS MOVEIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "154563" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA DE CONTRIBUICOES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "CONTRIBUICOES ECONOMICAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "32630" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA DE CONTRIBUICOES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "CONTRIBUICOES SOCIAIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "154563" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA DE CONTRIBUICOES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "IMPOSTOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "154563" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA DE CONTRIBUICOES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "INDENIZACOES E RESTITUICOES" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "32630" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA DE CONTRIBUICOES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "MULTAS E JUROS DE MORA" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "154563" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA DE CONTRIBUICOES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "OPERACOES DE CREDITO EXTERNAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "32630" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA DE CONTRIBUICOES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "OPERACOES DE CREDITO INTERNAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "154563" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA DE CONTRIBUICOES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITA DA PRODUCAO ANIMAL E DERIVADOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "32630" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA DE CONTRIBUICOES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITA DA PRODUCAO VEGETAL" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "154563" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA DE CONTRIBUICOES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS DA INDUSTRIA DE TRANSFORMACAO" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "32630" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA DE CONTRIBUICOES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS DE VALORES MOBILIARIOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "32630" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA DE CONTRIBUICOES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS IMOBILIARIAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "154563" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA DE CONTRIBUICOES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TAXAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "32630" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA DE CONTRIBUICOES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TRANSFERENCIAS INTERGOVERNAMENTAIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "32630" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA DE SERVICOS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "AMORTIZACOES DE EMPRESTIMOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "48669609" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA DE SERVICOS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITA DE SERVICOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "48669609" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA INDUSTRIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "ALIENACAO DE BENS IMOVEIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "129697969" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA INDUSTRIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "CONTRIBUICOES ECONOMICAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "129697969" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA INDUSTRIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "INDENIZACOES E RESTITUICOES" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "129697969" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA INDUSTRIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "OPERACOES DE CREDITO EXTERNAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "129697969" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA INDUSTRIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITA DA PRODUCAO ANIMAL E DERIVADOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "129697969" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA INDUSTRIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS DA INDUSTRIA DE TRANSFORMACAO" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "129697969" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA INDUSTRIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS DE VALORES MOBILIARIOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "129697969" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA INDUSTRIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TAXAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "129697969" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA INDUSTRIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TRANSFERENCIAS INTERGOVERNAMENTAIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "129697969" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA PATRIMONIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "ALIENACAO DE BENS IMOVEIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1892165" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA PATRIMONIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "ALIENACAO DE BENS MOVEIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "812750" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA PATRIMONIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "CONTRIBUICOES ECONOMICAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1892165" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA PATRIMONIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "CONTRIBUICOES SOCIAIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "812750" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA PATRIMONIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "IMPOSTOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "812750" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA PATRIMONIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "INDENIZACOES E RESTITUICOES" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1892165" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA PATRIMONIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "MULTAS E JUROS DE MORA" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "812750" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA PATRIMONIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "OPERACOES DE CREDITO EXTERNAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1892165" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA PATRIMONIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "OPERACOES DE CREDITO INTERNAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "812750" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA PATRIMONIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITA DA DIVIDA ATIVA" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "15207" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA PATRIMONIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITA DA PRODUCAO ANIMAL E DERIVADOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1892165" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA PATRIMONIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITA DA PRODUCAO VEGETAL" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "812750" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA PATRIMONIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITA DE CONCESSOES E PERMISSOES" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "15207" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA PATRIMONIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS DA INDUSTRIA DE TRANSFORMACAO" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1892165" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA PATRIMONIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS DE VALORES MOBILIARIOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1892165" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA PATRIMONIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS IMOBILIARIAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "812750" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA PATRIMONIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TAXAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1892165" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA PATRIMONIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TRANSFERENCIAS DE INSTITUICOES PRIVADAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "15207" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA PATRIMONIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TRANSFERENCIAS INTERGOVERNAMENTAIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1892165" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA TRIBUTARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "ALIENACAO DE BENS IMOVEIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "85797" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA TRIBUTARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "ALIENACAO DE BENS MOVEIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "-27130" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA TRIBUTARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "CONTRIBUICOES ECONOMICAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "85797" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA TRIBUTARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "CONTRIBUICOES SOCIAIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "-27130" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA TRIBUTARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "IMPOSTOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "-27130" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA TRIBUTARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "INDENIZACOES E RESTITUICOES" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "85797" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA TRIBUTARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "MULTAS E JUROS DE MORA" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "-27130" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA TRIBUTARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "OPERACOES DE CREDITO EXTERNAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "85797" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA TRIBUTARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "OPERACOES DE CREDITO INTERNAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "-27130" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA TRIBUTARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITA DA PRODUCAO ANIMAL E DERIVADOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "85797" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA TRIBUTARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITA DA PRODUCAO VEGETAL" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "-27130" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA TRIBUTARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS DA INDUSTRIA DE TRANSFORMACAO" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "85797" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA TRIBUTARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS DE VALORES MOBILIARIOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "85797" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA TRIBUTARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS IMOBILIARIAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "-27130" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA TRIBUTARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TAXAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "85797" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS CORRENTES INTRA-ORCAMENTARIAS" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA TRIBUTARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TRANSFERENCIAS INTERGOVERNAMENTAIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "85797" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "ALIENACAO DE BENS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "ALIENACAO DE BENS IMOVEIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "198454896" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "ALIENACAO DE BENS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "ALIENACAO DE BENS MOVEIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "599873921" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "ALIENACAO DE BENS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "CONTRIBUICOES ECONOMICAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "198454896" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "ALIENACAO DE BENS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "CONTRIBUICOES SOCIAIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "599873921" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "ALIENACAO DE BENS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "IMPOSTOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "599873921" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "ALIENACAO DE BENS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "INDENIZACOES E RESTITUICOES" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "198454896" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "ALIENACAO DE BENS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "MULTAS E JUROS DE MORA" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "599873921" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "ALIENACAO DE BENS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "OPERACOES DE CREDITO EXTERNAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "198454896" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "ALIENACAO DE BENS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "OPERACOES DE CREDITO INTERNAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "599873921" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "ALIENACAO DE BENS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITA DA PRODUCAO ANIMAL E DERIVADOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "198454896" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "ALIENACAO DE BENS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITA DA PRODUCAO VEGETAL" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "599873921" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "ALIENACAO DE BENS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS DA INDUSTRIA DE TRANSFORMACAO" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "198454896" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "ALIENACAO DE BENS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS DE VALORES MOBILIARIOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "198454896" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "ALIENACAO DE BENS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS IMOBILIARIAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "599873921" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "ALIENACAO DE BENS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TAXAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "198454896" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "ALIENACAO DE BENS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TRANSFERENCIAS INTERGOVERNAMENTAIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "198454896" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "AMORTIZACOES DE EMPRESTIMOS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "AMORTIZACOES DE EMPRESTIMOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "5453431945" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "AMORTIZACOES DE EMPRESTIMOS" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITA DE SERVICOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "5453431945" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OPERACOES DE CREDITO" } ,
+        "tituloEspecie": { "type": "literal" , "value": "ALIENACAO DE BENS IMOVEIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3837449326" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OPERACOES DE CREDITO" } ,
+        "tituloEspecie": { "type": "literal" , "value": "ALIENACAO DE BENS MOVEIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "885207551" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OPERACOES DE CREDITO" } ,
+        "tituloEspecie": { "type": "literal" , "value": "CONTRIBUICOES ECONOMICAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3837449326" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OPERACOES DE CREDITO" } ,
+        "tituloEspecie": { "type": "literal" , "value": "CONTRIBUICOES SOCIAIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "885207551" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OPERACOES DE CREDITO" } ,
+        "tituloEspecie": { "type": "literal" , "value": "IMPOSTOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "885207551" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OPERACOES DE CREDITO" } ,
+        "tituloEspecie": { "type": "literal" , "value": "INDENIZACOES E RESTITUICOES" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3837449326" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OPERACOES DE CREDITO" } ,
+        "tituloEspecie": { "type": "literal" , "value": "MULTAS E JUROS DE MORA" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "885207551" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OPERACOES DE CREDITO" } ,
+        "tituloEspecie": { "type": "literal" , "value": "OPERACOES DE CREDITO EXTERNAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3837449326" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OPERACOES DE CREDITO" } ,
+        "tituloEspecie": { "type": "literal" , "value": "OPERACOES DE CREDITO INTERNAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "885207551" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OPERACOES DE CREDITO" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITA DA PRODUCAO ANIMAL E DERIVADOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3837449326" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OPERACOES DE CREDITO" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITA DA PRODUCAO VEGETAL" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "885207551" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OPERACOES DE CREDITO" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS DA INDUSTRIA DE TRANSFORMACAO" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3837449326" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OPERACOES DE CREDITO" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS DE VALORES MOBILIARIOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3837449326" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OPERACOES DE CREDITO" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS IMOBILIARIAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "885207551" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OPERACOES DE CREDITO" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TAXAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3837449326" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OPERACOES DE CREDITO" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TRANSFERENCIAS INTERGOVERNAMENTAIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3837449326" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OUTRAS RECEITAS DE CAPITAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "OUTRAS RECEITAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "0" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OUTRAS RECEITAS DE CAPITAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "REC.DIV.ATIVA PROV.DE AMORTIZ.EMPREST.FINANC." } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "170027" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OUTRAS RECEITAS DE CAPITAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITA DIV ATIVA ALIENACAO ESTOQUES DE CAFE" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "210380" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OUTRAS RECEITAS DE CAPITAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TRANSFERENCIA DE OUTRAS INSTITUICOES PUBLICAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "210380" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OUTRAS RECEITAS DE CAPITAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TRANSFERENCIAS DE CONVENIOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "210380" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "OUTRAS RECEITAS DE CAPITAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TRANSFERENCIAS DE PESSOAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "170027" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA AGROPECUARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITA DIV ATIVA ALIENACAO ESTOQUES DE CAFE" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "4976677" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA AGROPECUARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TRANSFERENCIA DE OUTRAS INSTITUICOES PUBLICAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "4976677" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA AGROPECUARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TRANSFERENCIAS DE CONVENIOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "71837150" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA AGROPECUARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TRANSFERENCIAS DE PESSOAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "43500" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA AGROPECUARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TRANSFERENCIAS PARA O COMBATE A FOME" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "66860473" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA DE CONTRIBUICOES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "ALIENACAO DE BENS IMOVEIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "198454896" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA DE CONTRIBUICOES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "ALIENACAO DE BENS MOVEIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "599873921" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA DE CONTRIBUICOES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "CONTRIBUICOES ECONOMICAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "198454896" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA DE CONTRIBUICOES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "CONTRIBUICOES SOCIAIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "599873921" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA DE CONTRIBUICOES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "IMPOSTOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "599873921" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA DE CONTRIBUICOES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "INDENIZACOES E RESTITUICOES" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "198454896" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA DE CONTRIBUICOES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "MULTAS E JUROS DE MORA" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "599873921" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA DE CONTRIBUICOES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "OPERACOES DE CREDITO EXTERNAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "198454896" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA DE CONTRIBUICOES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "OPERACOES DE CREDITO INTERNAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "599873921" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA DE CONTRIBUICOES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITA DA PRODUCAO ANIMAL E DERIVADOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "198454896" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA DE CONTRIBUICOES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITA DA PRODUCAO VEGETAL" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "599873921" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA DE CONTRIBUICOES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS DA INDUSTRIA DE TRANSFORMACAO" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "198454896" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA DE CONTRIBUICOES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS DE VALORES MOBILIARIOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "198454896" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA DE CONTRIBUICOES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS IMOBILIARIAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "599873921" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA DE CONTRIBUICOES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TAXAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "198454896" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA DE CONTRIBUICOES" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TRANSFERENCIAS INTERGOVERNAMENTAIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "198454896" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA INDUSTRIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "OUTRAS RECEITAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "0" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA INDUSTRIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "REC.DIV.ATIVA PROV.DE AMORTIZ.EMPREST.FINANC." } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "170027" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA INDUSTRIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITA DIV ATIVA ALIENACAO ESTOQUES DE CAFE" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "210380" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA INDUSTRIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TRANSFERENCIA DE OUTRAS INSTITUICOES PUBLICAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "210380" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA INDUSTRIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TRANSFERENCIAS DE CONVENIOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "210380" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA INDUSTRIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TRANSFERENCIAS DE PESSOAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "170027" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA PATRIMONIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "AMORTIZACOES DE EMPRESTIMOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "5453431945" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA PATRIMONIAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITA DE SERVICOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "5453431945" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA TRIBUTARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "ALIENACAO DE BENS IMOVEIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3837449326" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA TRIBUTARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "ALIENACAO DE BENS MOVEIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "885207551" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA TRIBUTARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "CONTRIBUICOES ECONOMICAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3837449326" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA TRIBUTARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "CONTRIBUICOES SOCIAIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "885207551" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA TRIBUTARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "IMPOSTOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "885207551" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA TRIBUTARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "INDENIZACOES E RESTITUICOES" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3837449326" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA TRIBUTARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "MULTAS E JUROS DE MORA" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "885207551" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA TRIBUTARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "OPERACOES DE CREDITO EXTERNAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3837449326" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA TRIBUTARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "OPERACOES DE CREDITO INTERNAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "885207551" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA TRIBUTARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITA DA PRODUCAO ANIMAL E DERIVADOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3837449326" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA TRIBUTARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITA DA PRODUCAO VEGETAL" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "885207551" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA TRIBUTARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS DA INDUSTRIA DE TRANSFORMACAO" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3837449326" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA TRIBUTARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS DE VALORES MOBILIARIOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3837449326" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA TRIBUTARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITAS IMOBILIARIAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "885207551" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA TRIBUTARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TAXAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3837449326" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "RECEITA TRIBUTARIA" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TRANSFERENCIAS INTERGOVERNAMENTAIS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3837449326" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "TRANSFERENCIAS DE CAPITAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "RECEITA DIV ATIVA ALIENACAO ESTOQUES DE CAFE" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "4976677" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "TRANSFERENCIAS DE CAPITAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TRANSFERENCIA DE OUTRAS INSTITUICOES PUBLICAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "4976677" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "TRANSFERENCIAS DE CAPITAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TRANSFERENCIAS DE CONVENIOS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "71837150" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "TRANSFERENCIAS DE CAPITAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TRANSFERENCIAS DE PESSOAS" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "43500" }
+      } ,
+      {
+        "tituloCategoriaEconomicaDaReceita": { "type": "literal" , "value": "RECEITAS DE CAPITAL" } ,
+        "tituloOrigem": { "type": "literal" , "value": "TRANSFERENCIAS DE CAPITAL" } ,
+        "tituloEspecie": { "type": "literal" , "value": "TRANSFERENCIAS PARA O COMBATE A FOME" } ,
+        ".1": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "66860473" }
+      }
+    ]
+  }
+}
