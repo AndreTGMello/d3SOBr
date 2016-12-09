@@ -13,20 +13,16 @@
     }
     function render(json) {
       var config = {
-        "label_x": "Prefecture",
-        "label_y": "Area",
-        "var_x": "pref",
-        "var_y": "area",
+        "label_x": "Orgao",
+        "label_y": "Gasto",
+        "var_x": "var_x",
+        "var_y": "var_y",
         "width":  700,  // canvas width
         "height": 300,  // canvas height
         "margin":  80,  // canvas margin
         "selector": "#result"
       }
       d3sparql.barchart(json, config)
-    }
-
-    function exec_offline() {
-      d3.json("cache/dbpedia/area-ja.json", render)
     }
     function toggle() {
       d3sparql.toggle()
