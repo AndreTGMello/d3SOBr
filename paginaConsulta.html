@@ -31,27 +31,12 @@
 <body>
 	<div id="query" style="margin: 10px">
 		<center><h1>Visualização de Orçamentos do Brasil</h1></center>
-		<p>Escolha uma forma de visualização dos dados
-			<select id="selectTipoVisualizacao">
-				<option>barchart</option>
-				<option>circlepack</option>
-				<option>coordmap</option>
-				<option>dendrogram</option>
-				<option>forcegraph</option>
-				<option>htmlhash</option>
-				<option>htmltable</option>
-				<option>namedmap</option>
-				<option>piechart</option>
-				<option>roundtree</option>
-				<option>sankey</option>
-				<option>scatterplot</option>
-				<option>sunburst</option>
-				<option>treemap</option>
-				<option>treemapzoom</option>
-			</select></p>
 
 			<p>Escolha um estado:
 				<select id="selectEstado">
+					<option>
+						Federal
+					</option>
 					<option>
 						Todos
 					</option>
@@ -78,7 +63,7 @@
 				</select>
 			</p>
 
-			<button onclick="exec()"><i class="icon-th"></i>ENVIAR DADOS</button>
+			<button onclick="javascript: window.location.assign(window.location.href+=setGetParameter(estado, $(#selectEstado))">ENVIAR DADOS</button>
 		</div>
 		<div id="result"></div>
 	</body>
