@@ -8,10 +8,10 @@
 	<script src="d3sparql.js"></script>
 	<link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.css"/>
 	<script>
-		$( document ).ready(function() {
-    console.log( "ready!" );
+	$( document ).ready(function() {
+		console.log( "ready!" );
 		execBarrasOrgao(getAllPageParams());
-});
+	});
 	</script>
 	<style>
 	.bar:hover {
@@ -19,65 +19,65 @@
 	}
 	</style>
 	<style>
-    text {
-      pointer-events: none;
-    }
-    .children rect.parent,
-    .grandparent rect {
-      cursor: pointer;
-    }
-    .grandparent:hover rect {
-      opacity: 0.8;
-    }
-    .children:hover rect.child {
-      opacity: 0.2;
-    }
-    </style>
+	text {
+		pointer-events: none;
+	}
+	.children rect.parent,
+	.grandparent rect {
+		cursor: pointer;
+	}
+	.grandparent:hover rect {
+		opacity: 0.8;
+	}
+	.children:hover rect.child {
+		opacity: 0.2;
+	}
+	</style>
 </head>
 <body>
 	<div id="query" style="margin: 10px">
 		<center><h1>Visualização de Orçamentos do Brasil</h1></center>
 
-			<p>Escolha um estado:
-				<select id="selectEstado">
-					<option>
-						Federal
-					</option>
-					<option>
-						Todos
-					</option>
-					<option>
-						SP
-					</option>
-				</select>
-			</p>
-<p>Escolha um ano:
-				<select id="selectAno">
-					<option>
-						2010
-					</option>
-					<option>
-						2015
-					</option>
-				</select>
-			</p>
-			<p>Escolha um município:
-				<select id="selectMunicipio">
-					<option>
-						São Paulo
-					</option>
-				</select>
-			</p>
+		<p>Escolha um estado:
+			<select id="selectEstado">
+				<option>
+					Federal
+				</option>
+				<option>
+					Todos
+				</option>
+				<option>
+					SP
+				</option>
+			</select>
+		</p>
+		<p>Escolha um ano:
+			<select id="selectAno">
+				<option>
+					2010
+				</option>
+				<option>
+					2015
+				</option>
+			</select>
+		</p>
+		<p>Escolha um município:
+			<select id="selectMunicipio">
+				<option>
+					São Paulo
+				</option>
+			</select>
+		</p>
 
-			<button onclick="reloadWithQueryStringVars({'estado':'Federal'})">ENVIAR DADOS</button>
-		</div>
-		<div id="tabelaDespesaCategoriaEconomicaDaDespesa"></div>
-		<div id="tabelaDespesaGND"></div>
-		<div id="tabelaDespesaModalidadeDeAplicacao"></div>
-		<div id="tabelaDespesaElementoDeDespesa"></div>
-		<div id="tabelaDespesaSubelemento"></div>
-		<div id="graficoBarras"></div>
-		<div id="mapa"></div>
-		
-	</body>
-	</html>
+		<button onclick="reloadWithQueryStringVars({'estado':'Federal'})">ENVIAR DADOS</button>
+	</div>
+	<div id="tabelaDespesaCategoriaEconomicaDaDespesa"></div>
+	<div id="tabelaDespesaGND"></div>
+	<div id="tabelaDespesaModalidadeDeAplicacao"></div>
+	<div id="tabelaDespesaElementoDeDespesa"></div>
+	<div id="tabelaDespesaSubelemento"></div>
+	<div id="graficoBarras"></div>
+	<div id="mapa"></div>
+
+</body>
+</html>
