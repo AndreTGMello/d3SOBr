@@ -24,6 +24,23 @@
 		else
 			document.getElementById("selectMunicipio").disabled=false;
 	}
+	function montaMunicipios()
+	{
+		var listaMunicipios = pegaMunicipios();
+		var lista = document.getElementById("selectMunicipio");
+		console.log("entrei no montaMunicipios e a lista tem tamanho:");
+		setTimeout(function(){
+			console.log(listaMunicipios[0]);
+			for(item in listaMunicipios){
+			var opcao = document.createElement('option');
+			opcao.value = listaMunicipios[item];
+			opcao.innerHTML = listaMunicipios[item];
+			lista.appendChild(opcao);
+			}
+		},2000);
+		
+	}
+	window.onload = montaMunicipios;
 	</script>
 	<style>
 	select:disabled{
@@ -76,9 +93,6 @@
 		</p>
 		<p>Escolha um município:
 			<select id="selectMunicipio">
-				<option>
-					São Paulo
-				</option>
 			</select>
 		</p>
 
