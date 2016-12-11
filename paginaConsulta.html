@@ -17,8 +17,19 @@
 		//execTabelaElementoDeDespesa(getAllPageParams());
 		execAllViz(getAllPageParams());
 	});
+	
+	function toggleMunicipio(){
+		if (document.getElementById("selectEstado").selectedIndex === 1)
+			document.getElementById("selectMunicipio").disabled=true;
+		else
+			document.getElementById("selectMunicipio").disabled=false;
+	}
 	</script>
 	<style>
+	select:disabled{
+		background: #dddddd;
+	}
+	
 	.bar:hover {
 		fill: brown;
 	}
@@ -44,11 +55,7 @@
 		<div class="navbar-inner" style="padding-left: 20px">
 			<br>
 			<center>
-<<<<<<< HEAD
 				<button><i class="icon-th"></i><a href="index.html">Inicio</a></button>
-=======
-				<button onclick="carregaFrame('frame','index.html')"><i class="icon-th"></i>Inicio</a></button>
->>>>>>> f1cd43ed1262dededd562714d557c6a10327fdba
 				<button><i class="icon-th"></i><a href="paginaConsulta.html">Consultas</a></a></button>
 			</center>
 			<br>
@@ -57,26 +64,13 @@
 	<div id="query" style="margin: 100px">
 		<center><h1>Visualização de Orçamentos do Brasil</h1></center>
 
-		<p>Escolha um estado:
-			<select id="selectEstado">
-				<option>
-					Federal
-				</option>
-				<option>
-					Todos
-				</option>
+		<p>Escolha a origem dos dados:
+			<select id="selectEstado" onchange="toggleMunicipio()">
 				<option>
 					SP
 				</option>
-			</select>
-		</p>
-		<p>Escolha um ano:
-			<select id="selectAno">
 				<option>
-					2010
-				</option>
-				<option>
-					2015
+					Federal
 				</option>
 			</select>
 		</p>
