@@ -546,8 +546,8 @@ d3sparql.piechart = function(json, config) {
   var opts = {
     "label":    config.label    || head[0],
     "size":     config.size     || head[1],
-    "width":    config.width    || 700,
-    "height":   config.height   || 700,
+    "width":    config.width    || 1000,
+    "height":   config.height   || 1000,
     "margin":   config.margin   || 10,
     "hole":     config.hole     || 100,
     "selector": config.selector || null
@@ -571,6 +571,10 @@ d3sparql.piechart = function(json, config) {
     .append("g")
     .attr("transform", "translate(" + opts.width / 2 + "," + opts.height / 2 + ")")
 
+  var getAngle = function (d) {
+    return (180 / Math.PI * (d.startAngle + d.endAngle) / 2 - 90);
+};
+  
   var g = svg.selectAll(".arc")
     .data(pie(data))
     .enter()
@@ -581,7 +585,7 @@ d3sparql.piechart = function(json, config) {
     .attr("fill", function(d, i) { return color(i) })
   var text = g.append("text")
     .attr("class", "label")
-    .attr("transform", function(d) { return "translate(" + arc.centroid(d) + ")" })
+    .attr("transform", function(d) { return "translate(" + arc.centroid(d) + ")" + "rotate("+ getAngle(d) +")"})
     .attr("dy", ".35em")
     .attr("text-anchor", "middle")
     .text(function(d) { return d.data[opts.label].value })
