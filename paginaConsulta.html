@@ -16,10 +16,8 @@
 		//execTabelaModalidadeDeAplicacao(getAllPageParams());
 		//execTabelaElementoDeDespesa(getAllPageParams());
 		execAllViz(getAllPageParams());
-		console.log("Chamando jsonTreemapzoom");
-		jsonTreemapzoom();
 	});
-
+	
 	function toggleMunicipio(){
 		if (document.getElementById("selectEstado").selectedIndex === 1)
 			document.getElementById("selectMunicipio").disabled=true;
@@ -40,15 +38,19 @@
 			lista.appendChild(opcao);
 			}
 		},2000);
-
+		
 	}
 	window.onload = montaMunicipios;
 	</script>
 	<style>
+	svg[Attributes Style]{
+		height:550px;
+	}
+	
 	select:disabled{
 		background: #dddddd;
 	}
-
+	
 	.bar:hover {
 		fill: brown;
 	}
