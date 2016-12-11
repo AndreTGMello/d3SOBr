@@ -66,11 +66,11 @@
 
 		<p>Escolha a origem dos dados:
 			<select id="selectEstado" onchange="toggleMunicipio()">
-				<option>
-					SP
+				<option value="SP">
+					Estado de São Paulo
 				</option>
-				<option>
-					Federal
+				<option value="Federal">
+					Receitas e despesas do Governo Federal
 				</option>
 			</select>
 		</p>
@@ -82,7 +82,7 @@
 			</select>
 		</p>
 
-		<button onclick="reloadWithQueryStringVars({'estado':'SP'})">ENVIAR DADOS</button>
+		<button onclick="reloadWithQueryStringVars({'estado':$('#selectEstado').val()})">ENVIAR DADOS</button>
 		<!-- Mudar SP para selectEstado.text -->
 	</div>
 	<div id="graficoBarrasOrgao"></div>
