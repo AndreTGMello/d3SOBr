@@ -16,8 +16,9 @@
 		//execTabelaModalidadeDeAplicacao(getAllPageParams());
 		//execTabelaElementoDeDespesa(getAllPageParams());
 		execAllViz(getAllPageParams());
+		jsonTreemapzoom();
 	});
-	
+
 	function toggleMunicipio(){
 		if (document.getElementById("selectEstado").selectedIndex === 1)
 			document.getElementById("selectMunicipio").disabled=true;
@@ -38,7 +39,7 @@
 			lista.appendChild(opcao);
 			}
 		},2000);
-		
+
 	}
 	window.onload = montaMunicipios;
 	</script>
@@ -46,7 +47,7 @@
 	select:disabled{
 		background: #dddddd;
 	}
-	
+
 	.bar:hover {
 		fill: brown;
 	}
