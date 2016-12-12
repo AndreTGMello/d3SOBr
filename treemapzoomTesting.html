@@ -320,7 +320,8 @@ Generic treemap, based on http://bost.ocks.org/mike/treemap/
       : d.key + " (" + formatNumber(d.value) + ")";
     }
   }
-
+  
+  var treemapzoomData;
   if (window.location.hash === "") {
     jsonTreemapzoom();
     var data = d3.nest().key(function(treemapzoomData) { return treemapzoomData.results.bindings.tituloCategoriaEconomicaDaReceita.value; }).key(function(treemapzoomData) { return treemapzoomData.results.bindings.tituloEspecie.value; }).entries(treemapzoomData.results.bindings.total.value);
