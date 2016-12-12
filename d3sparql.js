@@ -66,6 +66,7 @@ d3sparql.query = function(endpoint, sparql, callback) {
     json = request.responseText
     if (d3sparql.debug) { console.log(json) }
     callback(JSON.parse(json))
+    return json;
   })
 /*
   d3.json(url, function(error, json) {
