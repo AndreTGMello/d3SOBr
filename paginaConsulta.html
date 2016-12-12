@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
@@ -19,7 +19,6 @@
 		console.log("Chamando jsonTreemapzoom");
 		jsonTreemapzoom();
 	});
-
 	function toggleMunicipio(){
 		if (document.getElementById("selectEstado").selectedIndex === 1)
 			document.getElementById("selectMunicipio").disabled=true;
@@ -40,7 +39,6 @@
 			lista.appendChild(opcao);
 			}
 		},2000);
-
 	}
 	window.onload = montaMunicipios;
 	</script>
@@ -48,7 +46,6 @@
 	select:disabled{
 		background: #dddddd;
 	}
-
 	.bar:hover {
 		fill: brown;
 	}
@@ -66,6 +63,12 @@
 	}
 	.children:hover rect.child {
 		opacity: 0.2;
+	}
+	
+	.table{
+		width: initial;
+		float:right;
+		margin:30px;
 	}
 	</style>
 </head>

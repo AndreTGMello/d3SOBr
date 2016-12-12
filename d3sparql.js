@@ -289,7 +289,7 @@ d3sparql.htmltable = function(json, config) {
 
   // default CSS
   table.style({
-    "margin": "10px"
+    "margin-right": "15%"
   })
   table.selectAll("th").style({
     "background": "#eeeeee",
@@ -421,14 +421,14 @@ d3sparql.barchart = function(json, config) {
     "label_y":  config.label_y  || head[1],
     "var_x":    config.var_x    || head[0],
     "var_y":    config.var_y    || head[1],
-    "width":    config.width    || 750,
-    "height":   config.height   || 300,
-    "margin":   config.margin   || 80,  // TODO: to make use of {top: 10, right: 10, bottom: 80, left: 80}
+    "width":    config.width    || 850,
+    "height":   config.height   || 700,
+    "margin":   config.margin   || 400,  // TODO: to make use of {top: 10, right: 10, bottom: 80, left: 80}
     "selector": config.selector || null
   }
 
   var scale_x = d3.scale.ordinal().rangeRoundBands([0, opts.width - opts.margin], 0.1)
-  var scale_y = d3.scale.linear().range([opts.height - opts.margin, 0])
+  var scale_y = d3.scale.linear().range([(opts.height - opts.margin), 0])
   var axis_x = d3.svg.axis().scale(scale_x).orient("bottom")
   var axis_y = d3.svg.axis().scale(scale_y).orient("left")  // .ticks(10, "%")
   scale_x.domain(data.map(function(d) { return d[opts.var_x].value }))
@@ -442,22 +442,22 @@ d3sparql.barchart = function(json, config) {
 
   var ax = svg.append("g")
     .attr("class", "axis x")
-    .attr("transform", "translate(" + opts.margin + "," + (opts.height - opts.margin) + ")")
+    .attr("transform", "translate(" + 100 + "," + (opts.height - opts.margin) + ")")
     .call(axis_x)
   var ay = svg.append("g")
     .attr("class", "axis y")
-    .attr("transform", "translate(" + opts.margin + ",0)")
+    .attr("transform", "translate(" + 100 + ",0)")
     .call(axis_y)
   var bar = svg.selectAll(".bar")
     .data(data)
     .enter()
     .append("rect")
-    .attr("transform", "translate(" + opts.margin + "," + 0 + ")")
+    .attr("transform", "translate(" + 100 + "," + 0 + ")")
     .attr("class", "bar")
     .attr("x", function(d) { return scale_x(d[opts.var_x].value) })
     .attr("width", scale_x.rangeBand())
     .attr("y", function(d) { return scale_y(d[opts.var_y].value) })
-    .attr("height", function(d) { return opts.height - scale_y(parseInt(d[opts.var_y].value)) - opts.margin })
+    .attr("height", function(d) { return (opts.height - scale_y(parseInt(d[opts.var_y].value)) - opts.margin)/1 })
 /*
     .call(function(e) {
       e.each(function(d) {
@@ -475,14 +475,14 @@ d3sparql.barchart = function(json, config) {
     .attr("class", "label")
     .text(opts.label_x)
     .style("text-anchor", "middle")
-    .attr("transform", "translate(" + ((opts.width - opts.margin) / 2) + "," + (opts.margin - 5) + ")")
+    .attr("transform", "translate(" + ((opts.width - opts.margin) / 2) + "," + (opts.margin - 30) + ")")
   ay.append("text")
     .attr("class", "label")
     .text(opts.label_y)
     .style("text-anchor", "middle")
     .attr("transform", "rotate(-90)")
-    .attr("x", 0 - (opts.height / 2))
-    .attr("y", 0 - (opts.margin - 20))
+    .attr("x", -opts.height/5)
+    .attr("y", -80)
 
   // default CSS/SVG
   bar.attr({
@@ -546,8 +546,8 @@ d3sparql.piechart = function(json, config) {
   var opts = {
     "label":    config.label    || head[0],
     "size":     config.size     || head[1],
-    "width":    config.width    || 700,
-    "height":   config.height   || 700,
+    "width":    config.width    || 1000,
+    "height":   config.height   || 1000,
     "margin":   config.margin   || 10,
     "hole":     config.hole     || 100,
     "selector": config.selector || null
@@ -571,6 +571,10 @@ d3sparql.piechart = function(json, config) {
     .append("g")
     .attr("transform", "translate(" + opts.width / 2 + "," + opts.height / 2 + ")")
 
+  var getAngle = function (d) {
+    return (180 / Math.PI * (d.startAngle + d.endAngle) / 2 - 90);
+};
+  
   var g = svg.selectAll(".arc")
     .data(pie(data))
     .enter()
@@ -581,7 +585,7 @@ d3sparql.piechart = function(json, config) {
     .attr("fill", function(d, i) { return color(i) })
   var text = g.append("text")
     .attr("class", "label")
-    .attr("transform", function(d) { return "translate(" + arc.centroid(d) + ")" })
+    .attr("transform", function(d) { return "translate(" + arc.centroid(d) + ")" + "rotate("+ getAngle(d) +")"})
     .attr("dy", ".35em")
     .attr("text-anchor", "middle")
     .text(function(d) { return d.data[opts.label].value })
