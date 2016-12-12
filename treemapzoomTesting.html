@@ -325,7 +325,8 @@ Generic treemap, based on http://bost.ocks.org/mike/treemap/
     jsonTreemapzoom();
     setTimeout(function () {
       console.log(treemapzoomData);
-      var data = treemapzoomData;
+//      var data = treemapzoomData;
+      main({title: "Gastos Publicos"}, {key: "Despesas", values: treemapzoomData});
     }, 2000);
 
     /*    d3.json("countries.json", function(err, res) {
