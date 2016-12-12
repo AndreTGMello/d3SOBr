@@ -320,12 +320,11 @@ Generic treemap, based on http://bost.ocks.org/mike/treemap/
   }
 
   if (window.location.hash === "") {
-    jsonTreemapzoom();
+    jsonReceitaTreemapzoom();
     setTimeout(function () {
-      console.log(treemapzoomData);
+      console.log(treemapzoomReceitaData);
 //      var data = treemapzoomData;
-var data = d3.nest().key(function(d) { return d.results.tituloCategoriaEconomicaDaReceita.value; }).key(function(d) { return d.results.tituloOrigem.value; }).key(function(d) { return d.results.tituloEspecie.value; }).key(function(d) { return d.results.total.value; }).entries(treemapzoomDataJson);
-      main({title: "Receita"}, {key: "Total", values: data});
+      main({title: "Receita"}, {key: "Total", values: treemapzoomReceitaData});
     }, 2000);
 
     /*    d3.json("countries.json", function(err, res) {
