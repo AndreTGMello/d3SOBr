@@ -72,6 +72,8 @@ d3sparql.query = function(endpoint, sparql, callback) {
     callback(json)
   })
 */
+  /* Modified */
+  return json;
 }
 
 /*
