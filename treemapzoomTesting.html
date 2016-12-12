@@ -324,7 +324,7 @@ Generic treemap, based on http://bost.ocks.org/mike/treemap/
     setTimeout(function () {
       console.log(treemapzoomData);
 //      var data = treemapzoomData;
-var data = d3.nest().key(function(d) { return d.results.tituloCategoriaEconomicaDaReceita.value; }).key(function(d) { return d.results.tituloOrigem.value; }).key(function(d) { return d.results.tituloEspecie.value; }).entries(treemapzoomDataJson);
+var data = d3.nest().key(function(d) { return d.results.tituloCategoriaEconomicaDaReceita.value; }).key(function(d) { return d.results.tituloOrigem.value; }).key(function(d) { return d.results.tituloEspecie.value; }).key(function(d) { return d.results.total.value; }).entries(treemapzoomDataJson);
       main({title: "Receita"}, {key: "Total", values: data});
     }, 2000);
 
