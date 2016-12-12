@@ -56,14 +56,17 @@ var d3sparql = {
     </html>
 */
 d3sparql.query = function(endpoint, sparql, callback) {
+  /* Modified */
+  var json;
   var url = endpoint + "?query=" + encodeURIComponent(sparql)
   if (d3sparql.debug) { console.log(endpoint) }
   if (d3sparql.debug) { console.log(url) }
   var mime = "application/sparql-results+json"
   d3.xhr(url, mime, function(request) {
-    var json = request.responseText
+    json = request.responseText
     if (d3sparql.debug) { console.log(json) }
     callback(JSON.parse(json))
+    return json;
   })
 /*
   d3.json(url, function(error, json) {
@@ -72,6 +75,8 @@ d3sparql.query = function(endpoint, sparql, callback) {
     callback(json)
   })
 */
+  /* Modified */
+  return json;
 }
 
 /*
