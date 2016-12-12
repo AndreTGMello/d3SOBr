@@ -288,9 +288,9 @@ d3sparql.htmltable = function(json, config) {
     .text(function(val) { return val })
 
   // default CSS
-  table.style({
-    "margin-right": "15%"
-  })
+  //table.style({
+    //"margin-right": "15%"
+  //})
   table.selectAll("th").style({
     "background": "#eeeeee",
     "text-transform": "capitalize",
@@ -574,7 +574,7 @@ d3sparql.piechart = function(json, config) {
   var getAngle = function (d) {
     return (180 / Math.PI * (d.startAngle + d.endAngle) / 2 - 90);
 };
-  
+
   var g = svg.selectAll(".arc")
     .data(pie(data))
     .enter()
