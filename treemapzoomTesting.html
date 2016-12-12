@@ -321,9 +321,8 @@ Generic treemap, based on http://bost.ocks.org/mike/treemap/
     }
   }
 
-  var treemapzoomData;
   if (window.location.hash === "") {
-    treemapzoomData = jsonTreemapzoom();
+    jsonTreemapzoom();
     console.log(treemapzoomData);
     var data = d3.nest().key(function(treemapzoomData) { return treemapzoomData.results.bindings.tituloCategoriaEconomicaDaReceita.value; }).key(function(treemapzoomData) { return treemapzoomData.results.bindings.tituloEspecie.value; }).entries(treemapzoomData.results.bindings.total.value);
     main({title: "World Population"}, {key: "World", values: data});
