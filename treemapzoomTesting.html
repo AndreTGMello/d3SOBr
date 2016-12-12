@@ -324,7 +324,8 @@ Generic treemap, based on http://bost.ocks.org/mike/treemap/
     setTimeout(function () {
       console.log(treemapzoomData);
 //      var data = treemapzoomData;
-      main({title: "Gastos Publicos"}, {key: "Despesas", values: treemapzoomData});
+var data = d3.nest().key(function(d) { return d.results.tituloCategoriaEconomicaDaReceita; }).key(function(d) { return d.results.tituloOrigem; }).key(function(d) { return d.results.tituloEspecie; }).entries(treemapzoomDataJson);
+      main({title: "Receita"}, {key: "Total", values: data});
     }, 2000);
 
     /*    d3.json("countries.json", function(err, res) {
@@ -335,6 +336,7 @@ Generic treemap, based on http://bost.ocks.org/mike/treemap/
   }
 }); */
   }
+
     </script>
 </body>
 </html>
