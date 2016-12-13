@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
@@ -19,9 +19,9 @@
 	});
 	function toggleMunicipio(){
 		if (document.getElementById("selectEstado").selectedIndex === 1)
-			document.getElementById("selectMunicipio").disabled=true;
+		document.getElementById("selectMunicipio").disabled=true;
 		else
-			document.getElementById("selectMunicipio").disabled=false;
+		document.getElementById("selectMunicipio").disabled=false;
 	}
 	function montaMunicipios()
 	{
@@ -31,10 +31,10 @@
 		setTimeout(function(){
 			console.log(listaMunicipios[0]);
 			for(item in listaMunicipios){
-			var opcao = document.createElement('option');
-			opcao.value = listaMunicipios[item];
-			opcao.innerHTML = listaMunicipios[item];
-			lista.appendChild(opcao);
+				var opcao = document.createElement('option');
+				opcao.value = listaMunicipios[item];
+				opcao.innerHTML = listaMunicipios[item];
+				lista.appendChild(opcao);
 			}
 		},4000);
 	}
@@ -45,43 +45,43 @@
 	}
 
 
-    </script>
 	</script>
-	<style>
-	select:disabled{
-		background: #dddddd;
-	}
-	.bar:hover {
-		fill: brown;
-	}
-	</style>
-	<style>
-	text {
-		pointer-events: none;
-	}
-	.children rect.parent,
-	.grandparent rect {
-		cursor: pointer;
-	}
-	.grandparent:hover rect {
-		opacity: 0.8;
-	}
-	.children:hover rect.child {
-		opacity: 0.2;
-	}
+</script>
+<style>
+select:disabled{
+	background: #dddddd;
+}
+.bar:hover {
+	fill: brown;
+}
+</style>
+<style>
+text {
+	pointer-events: none;
+}
+.children rect.parent,
+.grandparent rect {
+	cursor: pointer;
+}
+.grandparent:hover rect {
+	opacity: 0.8;
+}
+.children:hover rect.child {
+	opacity: 0.2;
+}
 
-	.table{
-		width: initial;
-		float:right;
-		margin:30px;
-	}
+.table{
+	width: initial;
+	float:right;
+	margin:30px;
+}
 
-	h1{
-		clear:both;
-	}
+h1{
+	clear:both;
+}
 
 
-	</style>
+</style>
 </head>
 <body>
 	<div class="navbar navbar-fixed-top navbar-inverse">
@@ -109,19 +109,21 @@
 		</p>
 		<p>Escolha um município:
 			<select id="selectMunicipio">
-			<option value = "todos">Todos
-			</option>
+				<option value = "todos">Todos
+				</option>
 			</select>
 		</p>
 
 		<button onclick="reloadWithQueryStringVars({'origem':$('#selectEstado').val(),'municipio':$('#selectMunicipio').val()})">ENVIAR DADOS</button>
 	</div>
-
+	<center>
+		<h1>Despesas</h1>
+	</center>
 	<h1 id="ResultadoBarra">Gráfico de colunas dos gastos de cada órgão</h1>
 	<div class="ResultadoBarra" id="graficoBarrasOrgao"></div>
 	<button type="button" onclick="toggleGrafico('ResultadoBarra')">Toggle</button>
 
-	<h1 id="ResultadoCategoria">Gráfico de setores das categorias econômicas das despesas</h1>
+	<h1 id="ResultadoCategoria">Tabela e gráfico de setores das categorias econômicas das despesas</h1>
 	<div class="ResultadoCategoria" id="tabelaCategoriaEconomicaDaDespesa"></div>
 	<div class="ResultadoCategoria" id="pizzaCategoriaEconomicaDaDespesa"></div>
 	<button type="button" onclick="toggleGrafico('ResultadoCategoria')">Toggle</button>
@@ -142,12 +144,15 @@
 	<div class="ResultadoElemento" id="tabelaSubelemento"></div>
 	<button type="button" onclick="toggleGrafico('ResultadoElemento')">Toggle</button>
 
-	<h1 id="ResultadoCategoriaReceita">Gráfico de setores das categorias econômicas das receitas</h1>
+	<center>
+		<h1>Receitas</h1>
+	</center>
+	<h1 id="ResultadoCategoriaReceita">Tabela e gráfico de setores das categorias econômicas das receitas</h1>
 	<div class="ResultadoCategoriaReceita" id="tabelaCategoriaEconomicaDaReceita"></div>
 	<div class="ResultadoCategoriaReceita" id="pizzaCategoriaEconomicaDaReceita"></div>
 	<button type="button" onclick="toggleGrafico('ResultadoCategoriaReceita')">Toggle</button>
 
-	<h1 id="ResultadoOrigem">Tabela e gráfico de setores sobre a origem dos gastos</h1>
+	<h1 id="ResultadoOrigem">Tabela e gráfico de setores sobre a origem das receitas</h1>
 	<div class="ResultadoOrigem" id="tabelaOrigem"></div>
 	<div class="ResultadoOrigem" id="pizzaOrigem"></div>
 	<button type="button" onclick="toggleGrafico('ResultadoOrigem')">Toggle</button>
@@ -157,19 +162,24 @@
 	<div class="ResultadoEspecie" id="pizzaEspecie"></div>
 	<button type="button" onclick="toggleGrafico('ResultadoEspecie')">Toggle</button>
 
-	<h1 id="ResultadoRubrica">Tabela e gráfico de setores sobre os elementos das despesas</h1>
+	<h1 id="ResultadoRubrica">Tabela e gráfico de setores da rubrica das receitas</h1>
 	<div class="ResultadoRubrica" id="tabelaRubrica"></div>
 	<div class="ResultadoRubrica" id="pizzaRubrica"></div>
-	<div class="ResultadoRubrica" id="tabelaAlinea"></div>
-	<div class="ResultadoRubrica" id="tabelaSubalinea"></div>
 	<button type="button" onclick="toggleGrafico('ResultadoRubrica')">Toggle</button>
 
-  <div id="treemapzoomReceita"></div>
-  <div id="treemapzoomDespesa"></div>
+	<h1 id="ResultadoAlinea">Tabela e gráfico de setores da subalinea das receitas</h1>
+	<div class="ResultadoAlinea" id="tabelaAlinea"></div>
+	<button type="button" onclick="toggleGrafico('ResultadoAlinea')">Toggle</button>
+
+	<div class="ResultadoSubalinea" id="tabelaSubalinea"></div>
+	<button type="button" onclick="toggleGrafico('ResultadoSubalinea')">Toggle</button>
+
+	<div id="treemapzoomReceita"></div>
+	<div id="treemapzoomDespesa"></div>
 
 	<div id="mapa"></div>
 
-  <div id="info"></div>
+	<div id="info"></div>
 
 </body>
 </html>
