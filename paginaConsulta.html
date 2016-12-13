@@ -36,10 +36,10 @@
 			opcao.innerHTML = listaMunicipios[item];
 			lista.appendChild(opcao);
 			}
-		},2000);
+		},4000);
 	}
 	window.onload = montaMunicipios;
-	
+
 	function toggleGrafico(classe){
 		$("."+classe).toggle();
 	}
@@ -75,7 +75,7 @@
 		float:right;
 		margin:30px;
 	}
-	
+
 	h1{
 		clear:both;
 	}
@@ -120,22 +120,22 @@
 	<h1 id="ResultadoBarra">Gráfico de colunas dos gastos de cada órgão</h1>
 	<div class="ResultadoBarra" id="graficoBarrasOrgao"></div>
 	<button type="button" onclick="toggleGrafico('ResultadoBarra')">Toggle</button>
-	
+
 	<h1 id="ResultadoCategoria">Gráfico de setores das categorias econômicas das despesas</h1>
 	<div class="ResultadoCategoria" id="tabelaCategoriaEconomicaDaDespesa"></div>
 	<div class="ResultadoCategoria" id="pizzaCategoriaEconomicaDaDespesa"></div>
 	<button type="button" onclick="toggleGrafico('ResultadoCategoria')">Toggle</button>
-	
+
 	<h1 id="ResultadoNatureza">Tabela e gráfico de setores sobre a natureza dos gastos</h1>
 	<div class="ResultadoNatureza" id="tabelaGND"></div>
 	<div class="ResultadoNatureza" id="pizzaGND"></div>
 	<button type="button" onclick="toggleGrafico('ResultadoNatureza')">Toggle</button>
-	
+
 	<h1 id="ResultadoModalidade">Tabela e gráfico de setores sobre a modalidade dos gastos</h1>
 	<div class="ResultadoModalidade" id="tabelaModalidadeDeAplicacao"></div>
 	<div class="ResultadoModalidade" id="pizzaModalidadeDeAplicacao"></div>
 	<button type="button" onclick="toggleGrafico('ResultadoModalidade')">Toggle</button>
-	
+
 	<h1 id="ResultadoElemento">Tabela e gráfico de setores sobre os elementos das despesas</h1>
 	<div class="ResultadoElemento" id="tabelaElementoDeDespesa"></div>
 	<div class="ResultadoElemento" id="pizzaElementoDeDespesa"></div>
@@ -146,17 +146,17 @@
 	<div class="ResultadoCategoriaReceita" id="tabelaCategoriaEconomicaDaReceita"></div>
 	<div class="ResultadoCategoriaReceita" id="pizzaCategoriaEconomicaDaReceita"></div>
 	<button type="button" onclick="toggleGrafico('ResultadoCategoriaReceita')">Toggle</button>
-	
+
 	<h1 id="ResultadoOrigem">Tabela e gráfico de setores sobre a origem dos gastos</h1>
 	<div class="ResultadoOrigem" id="tabelaOrigem"></div>
 	<div class="ResultadoOrigem" id="pizzaOrigem"></div>
 	<button type="button" onclick="toggleGrafico('ResultadoOrigem')">Toggle</button>
-	
+
 	<h1 id="ResultadoEspecie">Tabela e gráfico de setores sobre a especie dos gastos</h1>
 	<div class="ResultadoEspecie" id="tabelaEspecie"></div>
 	<div class="ResultadoEspecie" id="pizzaEspecie"></div>
 	<button type="button" onclick="toggleGrafico('ResultadoEspecie')">Toggle</button>
-	
+
 	<h1 id="ResultadoRubrica">Tabela e gráfico de setores sobre os elementos das despesas</h1>
 	<div class="ResultadoRubrica" id="tabelaRubrica"></div>
 	<div class="ResultadoRubrica" id="pizzaRubrica"></div>
